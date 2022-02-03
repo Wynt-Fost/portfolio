@@ -1,0 +1,289 @@
+html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,footer,header,nav,section{display:block}h1{font-size:2em;margin:.67em 0}figcaption,figure,main{display:block}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent;-webkit-text-decoration-skip:objects}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}dfn{font-style:italic}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}audio,video{display:inline-block}audio:not([controls]){display:none;height:0}img{border-style:none}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{font-family:sans-serif;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}button,html [type=button],[type=reset],[type=submit]{-webkit-appearance:button}button::-moz-focus-inner,[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner{border-style:none;padding:0}button:-moz-focusring,[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{display:inline-block;vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details,menu{display:block}summary{display:list-item}canvas{display:inline-block}template{display:none}[hidden]{display:none}
+
+
+    /* font-family: 'Montserrat', sans-serif;
+
+    font-family: 'Playfair Display', serif; */
+
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    width: 100%;
+    height: auto;   
+}
+
+
+/* ====================================================================== HEADER ======================================================================= */
+header{
+   background-color: navy;
+   height: 100vh;
+   position: relative;
+}
+
+.icon{
+    height: 80px;
+    width: 8% ;
+}
+
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1200px;
+  display: flex;
+}
+
+
+
+/* .burgerIcon{
+    cursor: pointer;
+    position: absolute;
+    right: 50px;
+    top: 50px;
+    z-index: 2;
+    
+}
+
+.bar{
+    display: block;
+    width: 20px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: black;
+
+    
+}
+
+.burgerIcon.active .bar:nth-child(2){
+    opacity: 0;
+}
+.burgerIcon.active .bar:nth-child(1){
+    transform: translateY(8px) rotate(45deg);
+}
+.burgerIcon.active .bar:nth-child(3){
+    transform: translateY(-8px) rotate(-45deg);
+
+} */
+
+
+/* The below is a hamburger menu that when hovered adds m*ue to the menu credits. I found this code online credits below */
+/* creator  IlyasR github url: https://gist.github.com/CodeMyUI/95df6d55d7b4a6ede5a5e99c7b73541c  */
+.burgerIcon {
+  /* display: inline-block; */
+  position: absolute;
+  z-index: 3;
+  width: 56px;
+  top: 8%;
+  left: 85%;
+  transform: translate(-50%, -40%);
+  font-size: 62px;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  cursor: pointer;
+}
+.burgerIcon::before,
+.burgerIcon::after {
+  position: absolute;
+  transition: 0.4s ease;
+  opacity: 0;
+  pointer-events: none;
+}
+.burgerIcon:before {
+  content: "M \00a0 \00a0 \00a0 \00a0 \00a0U";
+  top: -60px;
+  left: -100%;
+  width: 215px;
+}
+.burgerIcon:after {
+  content: "N";
+  top: 50px;
+  left: 96%;
+}
+.burgerIcon:hover::before,
+.burgerIcon:hover::after {
+  top: -16px;
+  opacity: 1;
+  transition: 0.2s ease, opacity 0.17s 0.03s ease-in;
+}
+
+.bar {
+  width: 80%;
+  height: 3px;
+  display: block;
+  background: white;
+  margin: 0 auto 16px;
+  transition: transform 0.4s ease;
+}
+
+/* ************************************************************* */
+
+.navMenu{
+     display: flex;
+    align-items: center;
+    gap: 40px;
+    position: fixed;
+    left: -110%;
+    top: 10px;
+    gap: 0;
+    flex-direction: column;
+    background-color: black;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    transition: 0.5s;
+    z-index: 1;
+    opacity: 90%;
+    font-family: 'Montserrat', sans-serif; 
+}
+
+.navItem{
+    margin: 10px 0;
+    padding-top: 40px;
+    font-size: 1.5rem;
+}
+
+.navBar{
+    justify-content: space-between;
+    height: 150px;
+    align-items: center;
+    /* padding: 0px 30px; */
+    
+}
+
+/* .navMenu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    
+} */
+
+.navLink{
+    transition: 0.6s ease;
+    color: white;
+}
+
+.navLink:hover{
+    color:  rgb(90, 210, 231);
+}
+
+.navMenu.active{
+    left: 0;
+}
+
+
+
+.sectionWithName{
+    width: 100%;
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 700;
+    text-align: center;
+    line-height: .9;
+    position: relative;
+    top: 300px;
+    cursor: default;
+}
+
+
+
+
+.firstName{
+    font-size: 4rem;
+    color: white;
+}
+
+.lastName{
+    font-size: 6rem;
+    color: white;
+  
+}
+
+.sectionWithName p {
+    color: back;
+    font-weight: 500;
+    font-size: 2rem;
+    padding: 0px;
+    line-height: 0;
+}
+
+/* .photoOfCode{
+   height: 500px;
+   right: 50px;
+   width: 90%;
+   position: absolute;
+   bottom: -150px;
+   opacity: 30%;
+   box-shadow: 0 0 8px 8px navy inset;
+} */
+
+.introSection{
+    height: 100vh;
+    background-color: black;
+}
+
+.introSection p{
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+}
+
+.introSection h2 {
+    color: white;
+    font-family:'Montserrat', sans-serif; 
+    font-size: 4rem;
+}
+
+
+.hello{
+    position: relative;
+    left: 40%;
+    top: 350px;
+}
+
+.whoAmI{
+    display: flex;
+    position: relative;
+    left: 50%;
+    border-left: white solid 2px;
+}
+
+.whoAmI p {
+    position: relative;
+    top: 20px;
+    left: 4%;
+}
+
+.picOfMe{
+    width: 50%;
+    height: 600px;
+    position: relative;
+    top: 800px;
+    right: 10%;
+}
+
+
+
+.myWork{
+    height: 200vh;
+}
+
+.contactMe{
+    background-color: navy;
+}
+
+
+
+
+
+
+
+
+
