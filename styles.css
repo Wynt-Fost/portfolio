@@ -283,13 +283,15 @@ animation: bounce 1.5s infinite;
     position: absolute;
     right: 40px;
     bottom: 150px;
+    font-size: 1.5rem;
+     font-family: 'Playfair Display', serif;
 }
 
 
 .hello{
     position: absolute;
     top: 250px;
-    left: 500px; 
+    left: 50%; 
 }
 
 .hello p {
@@ -399,15 +401,15 @@ animation: bounce 1.5s infinite;
 
 /*==================================================================== My Work */
 .myWork{
-    height: 200vh;
+    height: 230vh;
     position: relative;
+    width: 100%;
 }
 
 .myWorkGallery{
-    position: absolute;
-    top: 200px;
-    left: 250px;
-    font-family:'Montserrat', sans-serif;    
+    margin-top: 100px;
+    font-family:'Montserrat', sans-serif;  
+
 }
 
 h4{
@@ -418,24 +420,26 @@ h4{
 
 .workGallery{
     display: flex;
-    flex-wrap: wrap;
-    position: absolute;
-    left: 108px;
+    /* flex-wrap: wrap; */
+    /* position: absolute; */
+    /* left: 108px; */
     top: 200px;
 }
 
 .galleryText{
     background-image: url(./assets/dottedGraphic.png); 
+    width: 50%;
+    padding: 30px;
 }
 
-.galleryImages{
+/* .galleryImages{
     display: block;
-    width: 100%;
-}
+    width: 40%;
+} */
 
 .galleryItem{
-    height: 250px;
-    width: 60%;
+    height: 300px;
+    width: 40%;
 }
 
 Button {
@@ -561,8 +565,125 @@ textarea{
     margin-top: 10px;
 }
 
+footer{
+    background-color: black;
+    color: #FFC107;
+    font-family:'Montserrat', sans-serif; 
+    height: 50px;
+    padding-top: 25px;
+    text-align: center;
+}
 
 
+@media(max-width: 760px){
+
+.fa-basketball-ball{
+    left: 70%
+}
+
+.picOfMe{
+    width: 50%;
+    height: 400px;
+}
+
+.aboutMeDescription{
+    right: 20px;
+    bottom: 150px;
+}
+
+.skillContainer{
+    height: 350px;
+}
+
+
+}@media(max-width: 480px){
+
+    .burgerIcon{
+        
+    }
+
+    .fa-basketball-ball{
+    left: 80%
+}
+
+.hello {
+  top: 100px;
+  left: 10%;
+}
+
+.aboutMeDescription{
+   font-size: 1.2rem;
+   left: 40px;
+    bottom: 300px; 
+    width: 80%;
+    
+}
+
+.picOfMe{
+   width: 50%;
+   height: 250px;
+}
+.skillsSection2{
+    left: 5%;
+}
+
+.skillContainer{
+   width: 70%; 
+}
+
+.title{
+font-size: 1.5rem;
+}
+
+.myWork{
+    height: 350vh;
+}
+
+.galleryContainer1 {
+  flex-direction: column;
+}
+
+.galleryContainer2 {
+  flex-direction: column;
+}
+.galleryContainer3 {
+  flex-direction: column;
+}
+.galleryContainer4 {
+  flex-direction: column;
+}
+.galleryContainer5 {
+  flex-direction: column;
+}
+
+.galleryItem{
+    width: 85%;
+    padding-left: 30px;
+}
+
+.galleryText {
+  width: 85%;
+  text-align: center;
+}
+
+h5{
+    left: 20%;
+}
+
+.contactInfo {
+  flex-direction: column;
+}
+
+.contactMeText {
+  width: 100%;
+  
+}
+
+.contactInfo img{
+    visibility: hidden;
+    height: 0px;
+}
+}
 
 
 
