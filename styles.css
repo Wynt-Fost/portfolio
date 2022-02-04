@@ -20,7 +20,7 @@ img{
 }
 
 
-/* ====================================================================== HEADER ======================================================================= */
+/* ====================================================================== HEADER*/
 header{
    background-color: rgba(0, 0, 128, 0.993);
    background-image: url(./assets/basketballBg.jpg);
@@ -180,7 +180,7 @@ header{
     left: 0;
 }
 
-
+/* ========================================================================== Name */
 
 .sectionWithName{
     width: 100%;
@@ -189,11 +189,9 @@ header{
     text-align: center;
     line-height: .9;
     position: relative;
-    top: 300px;
+    top: 100px;
     cursor: default;
 }
-
-
 
 
 .firstName{
@@ -227,7 +225,7 @@ color: orange;
 font-size: 2rem;
 animation: bounce 1s linear;
 position: absolute;
-left: 61%;
+left: 62%;
 animation: bounce 1.5s infinite;
 }
 
@@ -256,41 +254,15 @@ animation: bounce 1.5s infinite;
 
 }
 
-/* 
-@keyframes bounce{
-    20%, 50%, 80%, to{
-        transform: translateY(50px);
-    }
-    30%{
-        transform: translateY(-30px);
-    }
-    40%{
-        transform: translateY(-15px);
-    }
-    50%{
-        transform: translateY(-4px);
-    }
-    
 
-} */
-
-/* .photoOfCode{
-   height: 500px;
-   right: 50px;
-   width: 90%;
-   position: absolute;
-   bottom: -150px;
-   opacity: 30%;
-   box-shadow: 0 0 8px 8px navy inset;
-} */
-
+/* ========================================================about me */
 .introSection{
     height: 100vh;
     background-color: black;
     position: relative;
 }
 
-.introSection p{
+.hello p{
     color: white;
     font-family: 'Playfair Display', serif;
     font-size: 1.5rem;
@@ -305,10 +277,18 @@ animation: bounce 1.5s infinite;
     left: 500px; */
 }
 
+.aboutMeDescription{
+    color: white;
+    width: 40%;
+    position: absolute;
+    right: 40px;
+    bottom: 150px;
+}
+
 
 .hello{
     position: absolute;
-    top: 400px;
+    top: 250px;
     left: 500px; 
 }
 
@@ -328,9 +308,11 @@ animation: bounce 1.5s infinite;
     left: 50px;
 }
 
+/* =================================================================== Skills */
+
 .skillsSection1{
     position: relative;
-    height: 40vh;
+    height: 55vh;
     background-color: rgb(240, 240, 240);
 }
 
@@ -383,36 +365,41 @@ animation: bounce 1.5s infinite;
     font-weight: 700;
 }
 
+/* ================================================================ My Profile */
+
 .myProfile{
     background-image: url(./assets/basketballBg.jpg);
    background-attachment: fixed;
-   height: 25vh;
+   height: 30vh;
    position: relative;
 }
 
-.myProfile div {
+.myProfileText {
     color: #FFC107;
      font-family:'Montserrat', sans-serif;  
      font-weight: 700;
     position: absolute;
+    top: 80px;
     text-align: center;
-    top: 180px;
     width: 100%;
+    margin: 0px;
 }
 
-.myProfile p{
+.myProfileText p {
     font-size: 1.5rem;
     border-left: white solid 2px ;
+    margin: 0px;
 }
 
 .myProfile h3{
     font-size: 5rem;
+    margin: 0px;
 }
 
 
-/*==================================================== My Work */
+/*==================================================================== My Work */
 .myWork{
-    height: 150vh;
+    height: 200vh;
     position: relative;
 }
 
@@ -425,7 +412,9 @@ animation: bounce 1.5s infinite;
 
 h4{
     color: #FFC107;
-}
+    font-size: 2rem;}
+
+    /* ============================================================= Gallery */
 
 .workGallery{
     display: flex;
@@ -436,8 +425,7 @@ h4{
 }
 
 .galleryText{
-    background-image: url(./assets/dottedGraphic.png);
-    
+    background-image: url(./assets/dottedGraphic.png); 
 }
 
 .galleryImages{
@@ -455,8 +443,9 @@ Button {
 	display:inline-block;
 	cursor:pointer;
 	color: #FFC107;
+    font-family:'Montserrat', sans-serif;  
     background-color: white;
-	font-size:12px;
+	font-size:1rem;
 	padding:16px 31px;
 	text-decoration:none;
 }
@@ -468,8 +457,6 @@ Button:active {
 	top:1px;
 }
 
-
-
 .galleryContainer1{
     display: flex;
     justify-content: space-between;
@@ -478,7 +465,6 @@ Button:active {
 .galleryText{
     width: 50%;
 }
-
 
 .galleryContainer2{
     display: flex;
@@ -501,258 +487,79 @@ Button:active {
     margin-bottom: 60px;
 }
 
-/* 1 */
+ .spacePic{
+     background-image: url(./assets/space.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 20vh;
+    background-attachment: fixed;
+    position: relative; 
 
-/* .galleryContainer1{
-position: relative;
-width: 40%;
-}
-
-.galleryOverlay1{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.877);
-    color: white;
-    font-family:'Montserrat', sans-serif; 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    opacity: 0;
 } 
-
-.galleryOverlay1:hover{
-    opacity: 1;
-    transition: .5s;
+h5{
+     color: #FFC107;
+     font-family:'Montserrat', sans-serif;  
+     font-size: 3rem;
+     font-weight: 700;
+     position: absolute;
+     left: 40%;
 }
 
-.galleryOverlay1 > *{
-    transform: translateY(20px);
-    transition: transform 0.5s;
-}
-.galleryOverlay1:hover > *{
-    transform: translateY(0);
-} */
-
-/* 2 */
-
-/* .galleryContainer2{
-position: relative;
-top: 20px;
-width: 40%;
-height: 320px;
-}
-
-.galleryOverlay2{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.877);
-    color: white;
-    font-family:'Montserrat', sans-serif; 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    opacity: 0;
-} 
-
-.galleryOverlay2:hover{
-    opacity: 1;
-    transition: .5s;
-}
-
-.galleryOverlay2 > *{
-    transform: translateY(20px);
-    transition: transform 0.5s;
-}
-.galleryOverlay2:hover > *{
-    transform: translateY(0);
-} */
-/* 3 */
-
-/* .galleryContainer3{
-position: relative;
-width: 40%;
-height: 200px;
-top: 50px;
-}
-
-.galleryOverlay3{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.877);
-    color: white;
-    font-family:'Montserrat', sans-serif; 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    opacity: 0;
-} 
-
-.galleryOverlay3:hover{
-    
-    opacity: 1;
-    transition: .5s;
-}
-
-.galleryOverlay3 > *{
-    transform: translateY(20px);
-    transition: transform 0.5s;
-}
-.galleryOverlay3:hover > *{
-    transform: translateY(0);
-} */
-
-/* 4 */
-
-/* .galleryContainer3{
-position: relative;
-width: 40%;
-height: 200px
-}
-
-.galleryOverlay3{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.877);
-    color: white;
-    font-family:'Montserrat', sans-serif; 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    opacity: 0;
-} 
-
-.galleryOverlay3:hover{
-    
-    opacity: 1;
-    transition: .5s;
-}
-
-.galleryOverlay3 > *{
-    transform: translateY(20px);
-    transition: transform 0.5s;
-}
-.galleryOverlay3:hover > *{
-    transform: translateY(0);
-} */
-
-/* 4 */
-
-/* .galleryContainer4{
-position: relative;
-width: 40%;
-}
-
-.galleryOverlay4{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.877);
-    color: white;
-    font-family:'Montserrat', sans-serif; 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    opacity: 0;
-} 
-
-.galleryOverlay4:hover{
-    
-    opacity: 1;
-    transition: .5s;
-}
-
-.galleryOverlay4 > *{
-    transform: translateY(20px);
-    transition: transform 0.5s;
-}
-.galleryOverlay4:hover > *{
-    transform: translateY(0);
-} */
-/* 5 */
-
-/* .galleryContainer5{
-position: relative;
-width: 40%;
-left:20%;
-}
-
-.galleryOverlay5{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.877);
-    color: white;
-    font-family:'Montserrat', sans-serif; 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    opacity: 0;
-} 
-
-.galleryOverlay5:hover{
-    
-    opacity: 1;
-    transition: .5s;
-}
-
-.galleryOverlay5 > *{
-    transform: translateY(20px);
-    transition: transform 0.5s;
-}
-.galleryOverlay5:hover > *{
-    transform: translateY(0);
-} */
-
-
-
-
-
-/* .galleryItem2{
-width: 40%;
-
-}
-
-.galleryItem3{
-width: 40%;
-height: 200px
-}
-
-.galleryItem4{
-width: 40%;
-}
-
-.galleryItem5{
-width: 40%;
-} */
 /*===================================================== Contact */
+
+
+
 .contactMe{
-    background-color: navy;
+    background-color: black;
+     color: #FFC107;
+    font-family:'Montserrat', sans-serif;  
     height: 50vh;
 }
 
+.contactInfo{
+    display: flex;
+}
 
+.contactMeText {
+    width: 50%;
+    height: 50vh;
+}
+
+.contactInfo img {
+    width: 50%;
+    height: 50vh;
+}
+
+.fa-linkedin{
+    color: blue;
+    font-size: 2rem;
+}
+
+.form{
+    margin-top: 100px ;
+    margin-left: 10px;
+}
+
+input{
+    background-color: black;
+    border:#FFC107 solid 1px ;
+    color: #FFC107;
+    margin-bottom: 20px;
+    width: 45%;
+    height: 50px;
+}
+
+textarea{
+   background-color: black;
+    border:#FFC107 solid 2px ; 
+    color: #FFC107;
+    width: 90%;
+    padding: 10px;
+}
+
+.formSubmit{
+    margin-top: 10px;
+}
 
 
 
