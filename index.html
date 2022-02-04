@@ -11,7 +11,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Playfair+Display:wght@400;700&display=swap"
         rel="stylesheet">
-    <title>Document</title>
+    <script src="https://kit.fontawesome.com/80e3897e43.js" crossorigin="anonymous"></script>
+    <title>Akeem Foster Portfolio</title>
 </head>
 
 <body>
@@ -33,14 +34,14 @@
         </div>
 
         <div class="sectionWithName">
-            <img class="icon" src="./assets/wave.png" alt="an icon that looks like a wave">
+            <div class="ballCourt"><i class="fas fa-basketball-ball"></i></div>
             <h1>
                 <span class="firstName">AKEEM</span> <br> <span class="lastName">FOSTER</span>
             </h1>
-            <p>Web Developer</p>
-            <img class="ziggy icon" src="./assets/ziggy.png" alt="a zig zag icon">
-            <img class="arrow icon" src="./assets/arrow.png" alt=" an arrow icon">
-
+            <p>Web Developer</p> <br>
+            <p>&</p> <br>
+            <P>Sports Fan</P> <br>
+            <p>Computer Enthusiast</p>
         </div>
 
         <!-- <img class="photoOfCode" src="./assets/codePhoto.jpg" alt=""> -->
@@ -49,71 +50,153 @@
     <section class="introSection wrapper">
 
         <div class="hello">
-            <div class="whoAmI">
-                <p>who am i</p>
-            </div>
+
+            <p>who am i</p>
+
             <h2>HELLO</h2>
         </div>
 
         <img class="picOfMe" src="./assets/picOfMe.png" alt="A picture of me">
 
     </section>
-    <section class="myWork wrapper">
 
-        <div class="workGallery">
+    <section class="wrapper skillsSection1">
+        <div class="skillsSection2">
+            <div class="skillContainer">
+                <p class="title">Im Awesome At</p>
+                <ul class="skillIcon">
+                    <li><i class="fab fa-html5"></i></li>
+                    <li><i class="fab fa-css3-alt"></i> </li>
+                    <li><i class="fab fa-js-square"></i></li>
+                </ul>
+                <p class="slText">HTML5, CSS3, Sass, Responsive, JavaScript/JQuery, Git, Restful API</p>
+            </div>
+            <div class="skillContainer">
+                <p class="title">I Cant Wait to Learn</p>
+                <ul class="learningIcon">
+                    <li><i class="fab fa-python"></i></li>
+                    <li><i class="fab fa-php"></i></li>
+                </ul>
+                <p class="slText">Python, PHP</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="myProfile wrapper">
+        <div class="myProfile">
+            <p>Awesome Projects</p>
+            <h3>My Work</h3>
+        </div>
+    </section>
+
+    <section class="myWork wrapper">
+        <div class="myWorkGallery">
+            <div class="galleryContainer1">
+                <img class="galleryItem" src="./assets/gameFinder-removebg-preview.png"
+                    alt="picture of my game finer app in an old tv">
+                <div class="galleryText">
+                    <h4>Game Finder App</h4>
+                    <p>React|Resful API</p>
+                    <a href="https://levelupgamefinder.netlify.app/"><button>Live View</button></a>
+                </div>
+            </div>
+            <div class="galleryContainer2">
+                <div class="galleryText">
+                    <h4>backronym Generator</h4>
+                    <p>REACT|RESTUL API</p>
+                    <a href="https://bbackronym.netlify.app/"><button>Live View</button></a>
+                </div>
+                <img class="galleryItem " src="./assets/backronym-removebg-preview.png"
+                    alt="picture of my backronym app in an old tv">
+            </div>
+            <div class="galleryContainer3">
+                <img class="galleryItem" src="./assets/whatsInYourFridge-removebg-preview.png"
+                    alt="picture of my whats in your fridge app in an old tv">
+                <div class="galleryText">
+                    <h4>Whats in Your Fridge</h4>
+                    <p>HTML|SCSS|JAVASCRIPT|RESTUL API</p>
+                    <a href="https://whats-in-your-fridge-eb-af.netlify.app/"><button>Live View</button></a>
+                </div>
+            </div>
+            <div class="galleryContainer4">
+                <div class="galleryText">
+                    <h4>Grain Refinishing</h4>
+                    <p>Word Press</p>
+                    <a href="https://grainrefinishing.ca/"><button>Live View</button></a>
+                </div>
+                <img class="galleryItem" src="./assets/grain-removebg-preview.png"
+                    alt="picture of my website called grain refinishing">
+            </div>
+            <div class="galleryContainer5">
+                <img class="galleryItem" src="./assets/textilee-removebg-preview.png"
+                    alt="picture of my textilee website in an old tv">
+                <di class="galleryText" v>
+                    <h4>Textilee</h4>
+                    <p>HTML|CSS</p>
+                    <a href="https://textilee.netlify.app/"><button>Live View</button></a>
+            </div>
+        </div>
+        </div>
+
+
+
+
+        <!-- <div>
+           
+            <div class="workGallery">
             <div class="galleryItem galleryContainer1">
                 <img class="galleryImage1 galleryImages" src="./assets/GameFinderApp.png"
                     alt="photo of my project Game Finder App">
                 <div class="galleryOverlay1">
-                    <h3>Game Finder App</h3>
-                    <p>React | Resful API</p>
+                    <h4>Game Finder App</h4>
+                    <p>React|Resful API</p>
                     <a href="https://levelupgamefinder.netlify.app/">Link</a>
                 </div>
             </div>
-            <div class="galleryItem galleryItem2">
+            <div class="galleryItem galleryContainer2">
 
                 <img class="galleryImages" src="./assets/grainRefinishing.png"
                     alt="photo of my project Grain Refinishing">
                 <div class="galleryOverlay2">
-                    <h3>Grain Refinishing</h3>
+                    <h4>Grain Refinishing</h4>
                     <p>Word Press</p>
                     <a href="https://grainrefinishing.ca/">Link</a>
                 </div>
             </div>
-            <div class="galleryItem galleryItem3">
+            <div class="galleryItem galleryContainer3">
                 <img class="galleryImages" src="./assets/whatInYourFridge.png"
                     alt="photo of my project Whats in Your Fridge">
                 <div class="galleryOverlay3">
-                    <h3></h3>
+                    <h4>Whats in Your Fridge</h4>
                     <p>HTML|SCSS|JAVASCRIPT|RESTUL API</p>
                     <a href="https://whats-in-your-fridge-eb-af.netlify.app/">Link</a>
                 </div>
             </div>
-            <div class="galleryItem galleryItem4">
+            <div class="galleryItem galleryContainer4">
 
                 <img class="galleryImages" src="./assets/backronymGeneratorSnapShot.png"
                     alt="photo of my project Backronym Generator">
                 <div class="galleryOverlay4">
-                    <h3>backronym Generator</h3>
+                    <h4>backronym Generator</h4>
                     <p>REACT|RESTUL API</p>
-                    <a href=""></a>
+                    <a href="https://bbackronym.netlify.app/">Link</a>
                 </div>
             </div>
-            <div class="galleryImages" class="galleryItem galleryItem5">
-                <img src="./assets/texilee.png" alt="">
+            <div class="galleryItem galleryContainer5">
+                <img class="galleryImages" src="./assets/texilee.png" alt="">
                 <div class="galleryOverlay5">
-                    <h3></h3>
-                    <p></p>
-                    <a href=""></a>
+                    <h4>Textilee</h4>
+                    <p>HTML|CSS</p>
+                    <a href="https://textilee.netlify.app/">Link</a>
                 </div>
             </div>
-        </div>
+        </div> -->
 
     </section>
     <section class="contactMe wrapper">
 
         <div>
-            <h4>CONTACT</h4>
+            <h5>CONTACT</h5>
             <p>Like my work? Lets get in touch!</p>
             <p>email: akeemfoster2@gmail.com</p>
             <p>phone: 647-227-7457</p>
