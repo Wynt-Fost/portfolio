@@ -40,41 +40,6 @@ header{
   max-width: 1200px;
 }
 
-
-
-/* .burgerIcon{
-    cursor: pointer;
-    position: absolute;
-    right: 50px;
-    top: 50px;
-    z-index: 2;
-    
-}
-
-.bar{
-    display: block;
-    width: 20px;
-    height: 3px;
-    margin: 5px auto;
-    -webkit-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-    background-color: black;
-
-    
-}
-
-.burgerIcon.active .bar:nth-child(2){
-    opacity: 0;
-}
-.burgerIcon.active .bar:nth-child(1){
-    transform: translateY(8px) rotate(45deg);
-}
-.burgerIcon.active .bar:nth-child(3){
-    transform: translateY(-8px) rotate(-45deg);
-
-} */
-
-
 /* The below is a hamburger menu that when hovered adds m*ue to the menu credits. I found this code online credits below */
 /* creator  IlyasR github url: https://gist.github.com/CodeMyUI/95df6d55d7b4a6ede5a5e99c7b73541c  */
 .burgerIcon {
@@ -159,14 +124,6 @@ header{
     
 }
 
-/* .navMenu{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 40px;
-    
-} */
-
 .navLink{
     transition: 0.6s ease;
     color: white;
@@ -249,7 +206,6 @@ animation: bounce 1.5s infinite;
     }
     100%{
          height: 50px;
-        /* transform: translateY(0px) */
     }
 
 }
