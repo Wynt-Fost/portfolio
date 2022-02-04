@@ -35,7 +35,6 @@ header{
 }
 
 .wrapper {
-  /* width: 90%; */
   margin: 0 auto;
   max-width: 1200px;
 }
@@ -43,7 +42,6 @@ header{
 /* The below is a hamburger menu that when hovered adds m*ue to the menu credits. I found this code online credits below */
 /* creator  IlyasR github url: https://gist.github.com/CodeMyUI/95df6d55d7b4a6ede5a5e99c7b73541c  */
 .burgerIcon {
-  /* display: inline-block; */
   position: absolute;
   z-index: 3;
   width: 56px;
@@ -119,9 +117,7 @@ header{
 .navBar{
     justify-content: space-between;
     height: 150px;
-    align-items: center;
-    /* padding: 0px 30px; */
-    
+    align-items: center;    
 }
 
 .navLink{
@@ -130,7 +126,7 @@ header{
 }
 
 .navLink:hover{
-    color:  rgb(90, 210, 231);
+    color:  #FFC107;
 }
 
 .navMenu.active{
