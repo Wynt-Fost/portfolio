@@ -30,7 +30,8 @@ header{
    background-color: rgba(0, 0, 128, 0.993);
    background-image: url(./assets/basketballBg.jpg);
    background-attachment: fixed;
-   height: 900px;
+   /* height: 900px; */
+   height: 100vh;
    position: relative;
 }
 
@@ -141,8 +142,6 @@ header{
     font-weight: 700;
     text-align: center;
     line-height: .9;
-    position: relative;
-    top: 150px;
     cursor: default;
 }
 
@@ -523,6 +522,21 @@ footer{
     height: 50px;
     padding-top: 25px;
     text-align: center;
+}
+
+@media(max-width: 1025px){
+
+.aboutMeDescription{
+    bottom: 55px;
+}
+
+.skillsSection2{
+    top: 80px;
+}
+
+.skillContainer {
+    height: 240px;
+}
 }
 
 
