@@ -19,6 +19,11 @@ img{
     height: auto;   
 }
 
+.wrapper {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
 
 /* ====================================================================== HEADER*/
 header{
@@ -32,11 +37,6 @@ header{
 .icon{
     height: 80px;
     width: 8% ;
-}
-
-.wrapper {
-  margin: 0 auto;
-  max-width: 1200px;
 }
 
 /* The below is a hamburger menu that when hovered adds m*ue to the menu credits. I found this code online credits below */
@@ -142,7 +142,7 @@ header{
     text-align: center;
     line-height: .9;
     position: relative;
-    top: 100px;
+    top: 300px;
     cursor: default;
 }
 
