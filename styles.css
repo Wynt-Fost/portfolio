@@ -209,7 +209,7 @@ animation: bounce 1.5s infinite;
 
 /* ========================================================about me */
 .introSection{
-    height: 100vh;
+    height: 50vh;
     background-color: black;
     position: relative;
 }
@@ -242,8 +242,8 @@ animation: bounce 1.5s infinite;
 
 .hello{
     position: absolute;
-    top: 250px;
-    left: 50%; 
+    top: 10px;
+    left: 60%; 
 }
 
 .hello p {
@@ -254,8 +254,8 @@ animation: bounce 1.5s infinite;
 }
 
 .picOfMe{
-    width: 50%;
-    height: 600px;
+    width: 40%;
+    height: 500px;
     position: absolute;
     z-index: 1;
     bottom: -85px;
@@ -266,7 +266,7 @@ animation: bounce 1.5s infinite;
 
 .skillsSection1{
     position: relative;
-    height: 55vh;
+    height: 40vh;
     background-color: rgb(240, 240, 240);
 }
 
@@ -275,13 +275,13 @@ animation: bounce 1.5s infinite;
     display: flex;
     position: absolute;
     top: 100px;
-    left: 25%;
-   
+    left: 30%;
 }
 
 .skillContainer{
-    height: 300px;
-    width: 25%;
+    height: 220px;
+    width: 18%;
+    padding: 20px;
     border: #FFC107 solid 2px;
     font-family:'Montserrat', sans-serif;  
     margin-right: 50px;
@@ -291,7 +291,7 @@ animation: bounce 1.5s infinite;
 
 .title{
     color: #FFC107;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 700;
 }
 
@@ -353,7 +353,7 @@ animation: bounce 1.5s infinite;
 
 /*==================================================================== My Work */
 .myWork{
-    height: 230vh;
+    height: 150vh;
     position: relative;
     width: 100%;
 }
@@ -444,7 +444,7 @@ Button:active {
 }
 
  .spacePic{
-     background-image: url(./assets/space.jpg);
+     background-image: url(./assets/basketballBg.jpg);
     background-position: center;
     background-size: cover;
     height: 20vh;
@@ -463,37 +463,30 @@ h5{
 
 /*===================================================== Contact */
 
-
-
 .contactMe{
     background-color: black;
      color: #FFC107;
     font-family:'Montserrat', sans-serif;  
-    height: 50vh;
+    height: 30vh;
 }
 
-.contactInfo{
-    display: flex;
+.contactForm{
+    width: 100%;
 }
 
-.contactMeText {
+.form{
+    padding-top: 65px;
+}
+
+.contactMeText{
     width: 50%;
-    height: 50vh;
-}
-
-.contactInfo img {
-    width: 50%;
-    height: 50vh;
+    text-align: center;
+    margin: 0 auto;
 }
 
 .fa-linkedin{
     color: blue;
     font-size: 2rem;
-}
-
-.form{
-    margin-top: 100px ;
-    margin-left: 10px;
 }
 
 input{
@@ -515,6 +508,12 @@ textarea{
 
 .formSubmit{
     margin-top: 10px;
+    width: 95%;
+}
+
+.formSubmit:hover{
+    background-color: #FFC107;
+    color: black;
 }
 
 footer{
