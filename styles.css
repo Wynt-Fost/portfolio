@@ -30,7 +30,7 @@ header{
    background-color: rgba(0, 0, 128, 0.993);
    background-image: url(./assets/basketballBg.jpg);
    background-attachment: fixed;
-   height: 100vh;
+   height: 900px;
    position: relative;
 }
 
@@ -142,7 +142,7 @@ header{
     text-align: center;
     line-height: .9;
     position: relative;
-    top: 300px;
+    top: 150px;
     cursor: default;
 }
 
@@ -209,7 +209,7 @@ animation: bounce 1.5s infinite;
 
 /* ========================================================about me */
 .introSection{
-    height: 50vh;
+    height: 400px;
     background-color: black;
     position: relative;
 }
@@ -234,7 +234,7 @@ animation: bounce 1.5s infinite;
     width: 40%;
     position: absolute;
     right: 40px;
-    bottom: 150px;
+    bottom: 70px;
     font-size: 1.5rem;
      font-family: 'Playfair Display', serif;
 }
@@ -258,7 +258,7 @@ animation: bounce 1.5s infinite;
     height: 500px;
     position: absolute;
     z-index: 1;
-    bottom: -85px;
+    bottom: -60px;
     left: 50px;
 }
 
@@ -266,7 +266,7 @@ animation: bounce 1.5s infinite;
 
 .skillsSection1{
     position: relative;
-    height: 40vh;
+    height: 400px;
     background-color: rgb(240, 240, 240);
 }
 
@@ -324,7 +324,7 @@ animation: bounce 1.5s infinite;
 .myProfile{
     background-image: url(./assets/basketballBg.jpg);
    background-attachment: fixed;
-   height: 30vh;
+   height: 200px;
    position: relative;
 }
 
@@ -333,7 +333,7 @@ animation: bounce 1.5s infinite;
      font-family:'Montserrat', sans-serif;  
      font-weight: 700;
     position: absolute;
-    top: 80px;
+    top: 40px;
     text-align: center;
     width: 100%;
     margin: 0px;
@@ -447,7 +447,7 @@ Button:active {
      background-image: url(./assets/basketballBg.jpg);
     background-position: center;
     background-size: cover;
-    height: 20vh;
+    height: 200px;
     background-attachment: fixed;
     position: relative; 
 
@@ -467,7 +467,7 @@ h5{
     background-color: black;
      color: #FFC107;
     font-family:'Montserrat', sans-serif;  
-    height: 30vh;
+    height: 400px;
 }
 
 .contactForm{
