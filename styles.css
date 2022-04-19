@@ -1,97 +1,331 @@
-html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,footer,header,nav,section{display:block}h1{font-size:2em;margin:.67em 0}figcaption,figure,main{display:block}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent;-webkit-text-decoration-skip:objects}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}dfn{font-style:italic}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}audio,video{display:inline-block}audio:not([controls]){display:none;height:0}img{border-style:none}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{font-family:sans-serif;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}button,html [type=button],[type=reset],[type=submit]{-webkit-appearance:button}button::-moz-focus-inner,[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner{border-style:none;padding:0}button:-moz-focusring,[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{display:inline-block;vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details,menu{display:block}summary{display:list-item}canvas{display:inline-block}template{display:none}[hidden]{display:none}
+html {
+    line-height: 1.15;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+}
+
+body {
+    margin: 0
+}
+
+article,
+aside,
+footer,
+header,
+nav,
+section {
+    display: block
+}
+
+h1 {
+    font-size: 2em;
+    margin: .67em 0
+}
+
+figcaption,
+figure,
+main {
+    display: block
+}
+
+figure {
+    margin: 1em 40px
+}
+
+hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible
+}
+
+pre {
+    font-family: monospace, monospace;
+    font-size: 1em
+}
+
+a {
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects
+}
+
+abbr[title] {
+    border-bottom: none;
+    text-decoration: underline;
+    text-decoration: underline dotted
+}
+
+b,
+strong {
+    font-weight: inherit
+}
+
+b,
+strong {
+    font-weight: bolder
+}
+
+code,
+kbd,
+samp {
+    font-family: monospace, monospace;
+    font-size: 1em
+}
+
+dfn {
+    font-style: italic
+}
+
+mark {
+    background-color: #ff0;
+    color: #000
+}
+
+small {
+    font-size: 80%
+}
+
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline
+}
+
+sub {
+    bottom: -.25em
+}
+
+sup {
+    top: -.5em
+}
+
+audio,
+video {
+    display: inline-block
+}
+
+audio:not([controls]) {
+    display: none;
+    height: 0
+}
+
+img {
+    border-style: none
+}
+
+svg:not(:root) {
+    overflow: hidden
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    font-family: sans-serif;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0
+}
+
+button,
+input {
+    overflow: visible
+}
+
+button,
+select {
+    text-transform: none
+}
+
+button,
+html [type=button],
+[type=reset],
+[type=submit] {
+    -webkit-appearance: button
+}
+
+button::-moz-focus-inner,
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
+    border-style: none;
+    padding: 0
+}
+
+button:-moz-focusring,
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring {
+    outline: 1px dotted ButtonText
+}
+
+fieldset {
+    padding: .35em .75em .625em
+}
+
+legend {
+    box-sizing: border-box;
+    color: inherit;
+    display: table;
+    max-width: 100%;
+    padding: 0;
+    white-space: normal
+}
+
+progress {
+    display: inline-block;
+    vertical-align: baseline
+}
+
+textarea {
+    overflow: auto
+}
+
+[type=checkbox],
+[type=radio] {
+    box-sizing: border-box;
+    padding: 0
+}
+
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
+    height: auto
+}
+
+[type=search] {
+    -webkit-appearance: textfield;
+    outline-offset: -2px
+}
+
+[type=search]::-webkit-search-cancel-button,
+[type=search]::-webkit-search-decoration {
+    -webkit-appearance: none
+}
+
+::-webkit-file-upload-button {
+    -webkit-appearance: button;
+    font: inherit
+}
+
+details,
+menu {
+    display: block
+}
+
+summary {
+    display: list-item
+}
+
+canvas {
+    display: inline-block
+}
+
+template {
+    display: none
+}
+
+[hidden] {
+    display: none
+}
 
 
-    /* font-family: 'Montserrat', sans-serif;
+/* font-family: 'Montserrat', sans-serif;
 
     font-family: 'Playfair Display', serif; */
 
 
-li{
+li {
     list-style: none;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-img{
+img {
     width: 100%;
-    height: auto;   
+    height: auto;
 }
 
 .wrapper {
-  margin: 0 auto;
-  max-width: 1200px;
+    margin: 0 auto;
+    max-width: 1200px;
 }
 
 
 /* ====================================================================== HEADER*/
-header{
-   background-color: rgba(0, 0, 128, 0.993);
-   background-image: url(./assets/basketballBg.jpg);
-   background-attachment: fixed;
-   /* height: 900px; */
-   height: 100vh;
-   position: relative;
+header {
+    background-color: rgba(0, 0, 128, 0.993);
+    background-image: url(./assets/basketballBg.jpg);
+    background-attachment: fixed;
+    /* height: 900px; */
+    height: 100vh;
+    position: relative;
 }
 
-.icon{
+.icon {
     height: 80px;
-    width: 8% ;
+    width: 8%;
 }
 
 /* The below is a hamburger menu that when hovered adds m*ue to the menu credits. I found this code online credits below */
 /* creator  IlyasR github url: https://gist.github.com/CodeMyUI/95df6d55d7b4a6ede5a5e99c7b73541c  */
 .burgerIcon {
-  position: absolute;
-  z-index: 3;
-  width: 56px;
-  top: 8%;
-  left: 85%;
-  transform: translate(-50%, -40%);
-  font-size: 62px;
-  font-family: 'Montserrat', sans-serif;
-  color: #fff;
-  cursor: pointer;
+    position: absolute;
+    z-index: 3;
+    width: 56px;
+    top: 8%;
+    left: 85%;
+    transform: translate(-50%, -40%);
+    font-size: 62px;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    cursor: pointer;
 }
+
 .burgerIcon::before,
 .burgerIcon::after {
-  position: absolute;
-  transition: 0.4s ease;
-  opacity: 0;
-  pointer-events: none;
+    position: absolute;
+    transition: 0.4s ease;
+    opacity: 0;
+    pointer-events: none;
 }
+
 .burgerIcon:before {
-  content: "M \00a0 \00a0 \00a0 \00a0 \00a0U";
-  top: -60px;
-  left: -100%;
-  width: 215px;
+    content: "M \00a0 \00a0 \00a0 \00a0 \00a0U";
+    top: -60px;
+    left: -100%;
+    width: 215px;
 }
+
 .burgerIcon:after {
-  content: "N";
-  top: 50px;
-  left: 96%;
+    content: "N";
+    top: 50px;
+    left: 96%;
 }
+
 .burgerIcon:hover::before,
 .burgerIcon:hover::after {
-  top: -16px;
-  opacity: 1;
-  transition: 0.2s ease, opacity 0.17s 0.03s ease-in;
+    top: -16px;
+    opacity: 1;
+    transition: 0.2s ease, opacity 0.17s 0.03s ease-in;
 }
 
 .bar {
-  width: 80%;
-  height: 3px;
-  display: block;
-  background: white;
-  margin: 0 auto 16px;
-  transition: transform 0.4s ease;
+    width: 80%;
+    height: 3px;
+    display: block;
+    background: white;
+    margin: 0 auto 16px;
+    transition: transform 0.4s ease;
 }
 
 /* ************************************************************* */
 
-.navMenu{
-     display: flex;
+.navMenu {
+    display: flex;
     align-items: center;
     gap: 40px;
     position: fixed;
@@ -106,39 +340,39 @@ header{
     transition: 0.5s;
     z-index: 1;
     opacity: 90%;
-    font-family: 'Montserrat', sans-serif; 
+    font-family: 'Montserrat', sans-serif;
 }
 
-.navItem{
+.navItem {
     margin: 10px 0;
     padding-top: 40px;
     font-size: 1.5rem;
 }
 
-.navBar{
+.navBar {
     justify-content: space-between;
     height: 150px;
-    align-items: center;    
+    align-items: center;
 }
 
-.navLink{
+.navLink {
     transition: 0.6s ease;
     color: white;
 }
 
-.navLink:hover{
-    color:  #FFC107;
+.navLink:hover {
+    color: #FFC107;
 }
 
-.navMenu.active{
+.navMenu.active {
     left: 0;
 }
 
 /* ========================================================================== Name */
 
-.sectionWithName{
+.sectionWithName {
     width: 100%;
-    font-family: 'Montserrat', sans-serif; 
+    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     text-align: center;
     line-height: .9;
@@ -146,15 +380,15 @@ header{
 }
 
 
-.firstName{
+.firstName {
     font-size: 4rem;
     color: white;
 }
 
-.lastName{
+.lastName {
     font-size: 6rem;
     color: white;
-  
+
 }
 
 .sectionWithName p {
@@ -165,55 +399,59 @@ header{
     line-height: 0;
 }
 
-.ballCourt{
+.ballCourt {
     width: 100%;
     height: 1px;
     position: relative;
-    
+
 }
 
- .fa-basketball-ball{
-color: orange;
-font-size: 2rem;
-animation: bounce 1s linear;
-position: absolute;
-left: 62%;
-animation: bounce 1.5s infinite;
+.fa-basketball-ball {
+    color: orange;
+    font-size: 2rem;
+    animation: bounce 1s linear;
+    position: absolute;
+    left: 62%;
+    animation: bounce 1.5s infinite;
 }
 
-@keyframes bounce{
-    10%{
+@keyframes bounce {
+    10% {
         height: 50px;
-        
-        
-        
+
+
+
     }
-    30%{
-        height: 50px;        
+
+    30% {
+        height: 50px;
     }
-    50%{
+
+    50% {
         height: 50px;
         transform: translateY(50px);
-        
+
     }
-    75%{
+
+    75% {
         height: 50px;
     }
-    100%{
-         height: 50px;
+
+    100% {
+        height: 50px;
     }
 
 }
 
 
 /* ========================================================about me */
-.introSection{
+.introSection {
     height: 400px;
     background-color: black;
     position: relative;
 }
 
-.hello p{
+.hello p {
     color: white;
     font-family: 'Playfair Display', serif;
     font-size: 1.5rem;
@@ -221,38 +459,38 @@ animation: bounce 1.5s infinite;
 
 .introSection h2 {
     color: white;
-    font-family:'Montserrat', sans-serif; 
+    font-family: 'Montserrat', sans-serif;
     font-size: 4rem;
     /* position: absolute;
     top: 400px;
     left: 500px; */
 }
 
-.aboutMeDescription{
+.aboutMeDescription {
     color: white;
     width: 40%;
     position: absolute;
     right: 40px;
     bottom: 25px;
     font-size: 1.5rem;
-     font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', serif;
 }
 
 
-.hello{
+.hello {
     position: absolute;
     top: 10px;
-    left: 60%; 
+    left: 60%;
 }
 
 .hello p {
     position: absolute;
     left: 110px;
     padding-left: 10px;
-    border-left: white solid 2px ;
+    border-left: white solid 2px;
 }
 
-.picOfMe{
+.picOfMe {
     width: 40%;
     height: 500px;
     position: absolute;
@@ -263,13 +501,13 @@ animation: bounce 1.5s infinite;
 
 /* =================================================================== Skills */
 
-.skillsSection1{
+.skillsSection1 {
     position: relative;
     height: 400px;
     background-color: rgb(240, 240, 240);
 }
 
-.skillsSection2{
+.skillsSection2 {
     width: 100%;
     display: flex;
     position: absolute;
@@ -277,60 +515,60 @@ animation: bounce 1.5s infinite;
     left: 30%;
 }
 
-.skillContainer{
+.skillContainer {
     height: 220px;
     width: 18%;
     padding: 20px;
     border: #FFC107 solid 2px;
-    font-family:'Montserrat', sans-serif;  
+    font-family: 'Montserrat', sans-serif;
     margin-right: 50px;
     text-align: center;
     background-color: white;
 }
 
-.title{
+.title {
     color: #FFC107;
     font-size: 1.5rem;
     font-weight: 700;
 }
 
-.skillIcon{
+.skillIcon {
     display: flex;
     color: #FFC107;
     font-size: 2rem;
     justify-content: space-around;
-    
+
 }
 
 /* .skillContainer li i{
     margin: 0px 10px 0px 10px;
 } */
 
-.learningIcon{
+.learningIcon {
     display: flex;
     color: #FFC107;
     font-size: 2rem;
     justify-content: space-around;
 }
 
-.slText{
+.slText {
     font-size: 1rem;
     font-weight: 700;
 }
 
 /* ================================================================ My Profile */
 
-.myProfile{
+.myProfile {
     background-image: url(./assets/basketballBg.jpg);
-   background-attachment: fixed;
-   height: 200px;
-   position: relative;
+    background-attachment: fixed;
+    height: 200px;
+    position: relative;
 }
 
 .myProfileText {
     color: #FFC107;
-     font-family:'Montserrat', sans-serif;  
-     font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
     position: absolute;
     top: 40px;
     text-align: center;
@@ -340,36 +578,37 @@ animation: bounce 1.5s infinite;
 
 .myProfileText p {
     font-size: 1.5rem;
-    border-left: white solid 2px ;
+    border-left: white solid 2px;
     margin: 0px;
 }
 
-.myProfile h3{
+.myProfile h3 {
     font-size: 5rem;
     margin: 0px;
 }
 
 
 /*==================================================================== My Work */
-.myWork{
+.myWork {
     height: 1900px;
     position: relative;
     width: 100%;
 }
 
-.myWorkGallery{
+.myWorkGallery {
     margin-top: 100px;
-    font-family:'Montserrat', sans-serif;  
+    font-family: 'Montserrat', sans-serif;
 
 }
 
-h4{
+h4 {
     color: #FFC107;
-    font-size: 2rem;}
+    font-size: 2rem;
+}
 
-    /* ============================================================= Gallery */
+/* ============================================================= Gallery */
 
-.workGallery{
+.workGallery {
     display: flex;
     /* flex-wrap: wrap; */
     /* position: absolute; */
@@ -377,8 +616,8 @@ h4{
     top: 200px;
 }
 
-.galleryText{
-    background-image: url(./assets/dottedGraphic.png); 
+.galleryText {
+    background-image: url(./assets/dottedGraphic.png);
     width: 50%;
     padding: 30px;
 }
@@ -388,290 +627,321 @@ h4{
     width: 40%;
 } */
 
-.galleryItem{
+.galleryItem {
     height: 300px;
     width: 40%;
 }
 
 Button {
-	border:1px solid #FFC107;
-	display:inline-block;
-	cursor:pointer;
-	color: #FFC107;
-    font-family:'Montserrat', sans-serif;  
+    border: 1px solid #FFC107;
+    display: inline-block;
+    cursor: pointer;
+    color: #FFC107;
+    font-family: 'Montserrat', sans-serif;
     background-color: white;
-	font-size:1rem;
-	padding:16px 31px;
-	text-decoration:none;
-}
-Button:hover {
-	background-color: black;
-}
-Button:active {
-	position:relative;
-	top:1px;
+    font-size: 1rem;
+    padding: 16px 31px;
+    text-decoration: none;
 }
 
-.galleryContainer1{
+Button:hover {
+    background-color: black;
+}
+
+Button:active {
+    position: relative;
+    top: 1px;
+}
+
+.galleryContainer1 {
     display: flex;
     justify-content: space-between;
     margin-bottom: 60px;
 }
-.galleryText{
+
+.galleryText {
     width: 50%;
 }
 
-.galleryContainer2{
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 60px;
-}
-.galleryContainer3{
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 60px;
-}
-.galleryContainer4{
-    display: flex;
-    justify-content: space-between;
-  margin-bottom: 60px;
-}
-.galleryContainer5{
+.galleryContainer2 {
     display: flex;
     justify-content: space-between;
     margin-bottom: 60px;
 }
 
- .spacePic{
-     background-image: url(./assets/basketballBg.jpg);
+.galleryContainer3 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.galleryContainer4 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.galleryContainer5 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.spacePic {
+    background-image: url(./assets/basketballBg.jpg);
     background-position: center;
     background-size: cover;
     height: 200px;
     background-attachment: fixed;
-    position: relative; 
+    position: relative;
 
-} 
-h5{
-     color: #FFC107;
-     font-family:'Montserrat', sans-serif;  
-     font-size: 3rem;
-     font-weight: 700;
-     position: absolute;
-     left: 40%;
+}
+
+h5 {
+    color: #FFC107;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    position: absolute;
+    left: 40%;
 }
 
 /*===================================================== Contact */
 
-.contactMe{
+.contactMe {
     background-color: black;
-     color: #FFC107;
-    font-family:'Montserrat', sans-serif;  
+    color: #FFC107;
+    font-family: 'Montserrat', sans-serif;
     height: 400px;
 }
 
-.contactForm{
+.contactForm {
     width: 100%;
 }
 
-.form{
+.form {
     padding-top: 65px;
 }
 
-.contactMeText{
+.contactMeText {
     width: 50%;
     text-align: center;
     margin: 0 auto;
 }
 
-.fa-linkedin{
+.fa-linkedin {
     color: blue;
     font-size: 2rem;
 }
 
-input{
+input {
     background-color: black;
-    border:#FFC107 solid 1px ;
+    border: #FFC107 solid 1px;
     color: #FFC107;
     margin-bottom: 20px;
     width: 45%;
     height: 50px;
 }
 
-textarea{
-   background-color: black;
-    border:#FFC107 solid 2px ; 
+textarea {
+    background-color: black;
+    border: #FFC107 solid 2px;
     color: #FFC107;
     width: 90%;
     padding: 10px;
 }
 
-.formSubmit{
+.formSubmit {
     margin-top: 10px;
     width: 95%;
 }
 
-.formSubmit:hover{
+.formSubmit:hover {
     background-color: #FFC107;
     color: black;
 }
 
-footer{
+footer {
     background-color: black;
     color: #FFC107;
-    font-family:'Montserrat', sans-serif; 
+    font-family: 'Montserrat', sans-serif;
     height: 50px;
     padding-top: 25px;
     text-align: center;
 }
 
-@media(max-width: 1025px){
+@media(max-width: 1025px) {
 
-.aboutMeDescription{
-    bottom: 0px;
+    .aboutMeDescription {
+        bottom: 0px;
+    }
+
+    .skillsSection2 {
+        top: 80px;
+        left: 22%;
+    }
+
+    .skillContainer {
+        height: 250px;
+        width: 25%;
+    }
 }
 
-.skillsSection2{
-    top: 80px;
-    left: 22%;
+@media(max-width: 760px) {
+
+    .fa-basketball-ball {
+        left: 70%
+    }
+
+    .sectionWithName {
+        padding-left: 20px;
+    }
+
+    .picOfMe {
+        width: 50%;
+        height: 400px;
+    }
+
+    .introSection {
+        height: 510px;
+    }
+
+    .aboutMeDescription {
+        right: 20px;
+        bottom: 35px;
+        font-size: 1.4rem;
+    }
+
+    .skillContainer {
+        height: 245px;
+    }
+
+
 }
 
-.skillContainer {
-    height: 250px;
-    width: 25%;
+@media(max-width: 480px) {
+
+    .burgerIcon:before {
+        visibility: hidden;
+    }
+
+    .burgerIcon:after {
+        visibility: hidden;
+    }
+
+    .fa-basketball-ball {
+        left: 80%
+    }
+
+    .sectionWithName {
+        padding-left: 0px;
+    }
+
+    .sectionWithName p {
+        font-size: 1.2rem;
+    }
+
+    .lastName {
+        font-size: 5rem;
+    }
+
+    .hello {
+        top: 0px;
+        left: 14%;
+    }
+
+    .introSection {
+        height: 500px;
+    }
+
+    .aboutMeDescription {
+        font-size: 1rem;
+        left: 70px;
+        bottom: 190px;
+        width: 80%;
+
+    }
+
+    .picOfMe {
+        width: 50%;
+        height: 250px;
+    }
+
+    .skillsSection2 {
+        left: 3%;
+        top: 68px;
+    }
+
+    .skillContainer {
+        width: 30%;
+        height: 200px;
+    }
+
+    .title {
+        font-size: 1rem;
+    }
+
+    .slText {
+        font-size: .8rem;
+    }
+
+    .myWork {
+        height: 3700px
+    }
+
+    .galleryContainer1 {
+        flex-direction: column;
+    }
+
+    .galleryContainer2 {
+        flex-direction: column;
+    }
+
+    .galleryContainer3 {
+        flex-direction: column;
+    }
+
+    .galleryContainer4 {
+        flex-direction: column;
+    }
+
+    .galleryContainer5 {
+        flex-direction: column;
+    }
+
+    .galleryItem {
+        width: 85%;
+        padding-left: 30px;
+    }
+
+    .galleryText {
+        width: 85%;
+        text-align: center;
+    }
+
+    h5 {
+        left: 20%;
+    }
+
+    .contactInfo {
+        flex-direction: column;
+    }
+
+    .contactMeText {
+        width: 100%;
+    }
+
+    .contactForm {
+        width: 95%;
+        padding-left: 5px;
+    }
+
+    input {
+        width: 96%;
+    }
+
+    .contactInfo img {
+        visibility: hidden;
+        height: 0px;
+    }
 }
-}
-
-@media(max-width: 760px){
-
-.fa-basketball-ball{
-    left: 70%
-}
-
-.sectionWithName{
-    padding-left: 20px;
-}
-
-.picOfMe{
-    width: 50%;
-    height: 400px;
-}
-
-.introSection{
-    height: 510px;
-}
-
-.aboutMeDescription{
-    right: 20px;
-    bottom: 35px;
-    font-size: 1.4rem;
-}
-
-.skillContainer{
-    height: 245px;
-}
-
-
-}@media(max-width: 480px){
-
-    .fa-basketball-ball{
-    left: 80%
-}
-
-.sectionWithName p{
-    font-size: 1.2rem;
-}
-
-.hello {
-  top: 0px;
-  left: 14%;
-}
-
-.introSection{
-    height: 500px;
-}
-
-.aboutMeDescription{
-   font-size: 1.2rem;
-   left: 70px;
-   bottom: 190px;
-   width: 80%;
-    
-}
-
-.picOfMe{
-   width: 50%;
-   height: 250px;
-}
-.skillsSection2{
-    left: 9%;
-    top: 68px;
-}
-
-.skillContainer{
-   width: 70%; 
-   height: 275px;
-}
-
-.title{
-font-size: 1.5rem;
-}
-
-.myWork{
-    height: 3400px
-}
-
-.galleryContainer1 {
-  flex-direction: column;
-}
-
-.galleryContainer2 {
-  flex-direction: column;
-}
-.galleryContainer3 {
-  flex-direction: column;
-}
-.galleryContainer4 {
-  flex-direction: column;
-}
-.galleryContainer5 {
-  flex-direction: column;
-}
-
-.galleryItem{
-    width: 85%;
-    padding-left: 30px;
-}
-
-.galleryText {
-  width: 85%;
-  text-align: center;
-}
-
-h5{
-    left: 20%;
-}
-
-.contactInfo {
-  flex-direction: column;
-}
-
-.contactMeText {
-  width: 100%;
-}
-
-.contactForm {
-    width: 96%;
-    padding-left: 28px;
-}
-
-.contactInfo img{
-    visibility: hidden;
-    height: 0px;
-}
-}
-
-
-
-
-
-
