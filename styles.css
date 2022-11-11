@@ -5,7 +5,8 @@ html {
 }
 
 body {
-    margin: 0
+    margin: 0;
+    background: #fbf0e4;
 }
 
 article,
@@ -15,11 +16,6 @@ header,
 nav,
 section {
     display: block
-}
-
-h1 {
-    font-size: 2em;
-    margin: .67em 0
 }
 
 figcaption,
@@ -108,10 +104,6 @@ video {
 audio:not([controls]) {
     display: none;
     height: 0
-}
-
-img {
-    border-style: none
 }
 
 svg:not(:root) {
@@ -211,29 +203,24 @@ textarea {
 
 details,
 menu {
-    display: block
+    display: block;
 }
 
 summary {
-    display: list-item
+    display: list-item;
 }
 
 canvas {
-    display: inline-block
+    display: inline-block;
 }
 
 template {
-    display: none
+    display: none;
 }
 
 [hidden] {
-    display: none
+    display: none;
 }
-
-
-/* font-family: 'Montserrat', sans-serif;
-
-    font-family: 'Playfair Display', serif; */
 
 
 li {
@@ -244,34 +231,20 @@ a {
     text-decoration: none;
 }
 
-img {
-    width: 100%;
-    height: auto;
-}
-
 .wrapper {
     margin: 0 auto;
     max-width: 1200px;
 }
 
 
-/* ====================================================================== HEADER*/
-header {
-    background-color: rgba(0, 0, 128, 0.993);
-    background-image: url(./assets/basketballBg.jpg);
-    background-attachment: fixed;
-    /* height: 900px; */
-    height: 100vh;
-    position: relative;
-}
+
+/* ====================================================================== HEADER AND NAV*/
 
 .icon {
     height: 80px;
     width: 8%;
 }
 
-/* The below is a hamburger menu that when hovered adds m*ue to the menu credits. I found this code online credits below */
-/* creator  IlyasR github url: https://gist.github.com/CodeMyUI/95df6d55d7b4a6ede5a5e99c7b73541c  */
 .burgerIcon {
     position: absolute;
     z-index: 3;
@@ -317,12 +290,10 @@ header {
     width: 80%;
     height: 3px;
     display: block;
-    background: white;
+    background: black;
     margin: 0 auto 16px;
     transition: transform 0.4s ease;
 }
-
-/* ************************************************************* */
 
 .navMenu {
     display: flex;
@@ -368,42 +339,48 @@ header {
     left: 0;
 }
 
-/* ========================================================================== Name */
+/* ====================================================================== END NAV*/
+/* ====================================================================== HEADER CONT*/
+header {
+    height: 50vh;
+}
 
-.sectionWithName {
+.picOfMe {
+    padding-top: 100px;
+    padding-left: 20%;
+}
+
+.scottie-skyline{
+    display: flex;
+}
+
+.scottie-skyline-img{
+    width: 50%;
+}
+.scottie{
+   float: right;
+ 
+}
+
+.skyline{
+    position: relative;
+    top: 73%;
+    left: 10%;
+    float: left;
+}
+
+h1 {
+    font-size: 2em;
     width: 100%;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     text-align: center;
-    line-height: .9;
-    cursor: default;
-}
-
-
-.firstName {
-    font-size: 4rem;
-    color: white;
-}
-
-.lastName {
-    font-size: 6rem;
-    color: white;
-
-}
-
-.sectionWithName p {
-    color: orange;
-    font-weight: 500;
-    font-size: 2rem;
-    padding: 0px;
-    line-height: 0;
+    position: relative;
+    padding-top: 50px;
 }
 
 .ballCourt {
     width: 100%;
-    height: 1px;
-    position: relative;
-
 }
 
 .fa-basketball-ball {
@@ -411,16 +388,52 @@ header {
     font-size: 2rem;
     animation: bounce 1s linear;
     position: absolute;
-    left: 62%;
+    left: 65%;
+    top: 5%;
     animation: bounce 1.5s infinite;
 }
 
+
+
+/* =====================================================================END HEADER */
+
+/* ===================================================================== ABOUT ME*/
+.introSection {
+    background-color: black;
+    height: 600px;
+    border-radius: 50px;
+    border-style: solid;
+    border-color:#FFC107;
+    }
+
+.hello p {
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+}
+
+.introSection h2 {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+}
+
+.aboutMeDescription {
+    color: white;
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    padding: 10px;
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 100px;
+}
+/* =====================================================================END ABOUT ME*/
+/* ============================================================= START BASKETBALL BOUNCE */
 @keyframes bounce {
     10% {
         height: 50px;
-
-
-
     }
 
     30% {
@@ -430,7 +443,6 @@ header {
     50% {
         height: 50px;
         transform: translateY(50px);
-
     }
 
     75% {
@@ -442,88 +454,35 @@ header {
     }
 
 }
-
-
-/* ========================================================about me */
-.introSection {
-    height: 400px;
-    background-color: black;
-    position: relative;
-}
-
-.hello p {
-    color: white;
-    font-family: 'Playfair Display', serif;
-    font-size: 1.5rem;
-}
-
-.introSection h2 {
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 4rem;
-    /* position: absolute;
-    top: 400px;
-    left: 500px; */
-}
-
-.aboutMeDescription {
-    color: white;
-    width: 40%;
-    position: absolute;
-    right: 40px;
-    bottom: 25px;
-    font-size: 1.5rem;
-    font-family: 'Playfair Display', serif;
-}
-
-
-.hello {
-    position: absolute;
-    top: 10px;
-    left: 60%;
-}
-
-.hello p {
-    position: absolute;
-    left: 110px;
-    padding-left: 10px;
-    border-left: white solid 2px;
-}
-
-.picOfMe {
-    width: 40%;
-    height: 500px;
-    position: absolute;
-    z-index: 1;
-    bottom: -60px;
-    left: 50px;
-}
-
-/* =================================================================== Skills */
+/* ============================================================= END BASKETBALL BOUNCE */
+/* =================================================================== START SKILLS */
 
 .skillsSection1 {
-    position: relative;
     height: 400px;
-    background-color: rgb(240, 240, 240);
 }
 
 .skillsSection2 {
-    width: 100%;
-    display: flex;
-    position: absolute;
-    top: 100px;
-    left: 30%;
+    background-color: #ffff;
+    width: 60%;
+    border-radius: 25px;
+    border-style: solid;
+    margin-left: 20%;
+    bottom: 40%;
+    position: relative;
 }
 
-.skillContainer {
-    height: 220px;
-    width: 18%;
-    padding: 20px;
-    border: #FFC107 solid 2px;
+.skillsSection2 h3 {
     font-family: 'Montserrat', sans-serif;
-    margin-right: 50px;
+    font-size: 3rem;
     text-align: center;
-    background-color: white;
+    margin-bottom: 0px;
+}
+
+.mySkills {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
 }
 
 .title {
@@ -540,10 +499,6 @@ header {
 
 }
 
-/* .skillContainer li i{
-    margin: 0px 10px 0px 10px;
-} */
-
 .learningIcon {
     display: flex;
     color: #FFC107;
@@ -555,14 +510,17 @@ header {
     font-size: 1rem;
     font-weight: 700;
 }
-
-/* ================================================================ My Profile */
+/* ================================================================START SKILLS */
+/* ================================================================START MY PROFILE */
 
 .myProfile {
     background-image: url(./assets/basketballBg.jpg);
     background-attachment: fixed;
     height: 200px;
     position: relative;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: #FFC107;
 }
 
 .myProfileText {
@@ -586,11 +544,10 @@ header {
     font-size: 5rem;
     margin: 0px;
 }
+/* ================================================================END MY PROFILE */
 
-
-/*==================================================================== My Work */
+/*================================================================== START MY WORK*/
 .myWork {
-    height: 1900px;
     position: relative;
     width: 100%;
 }
@@ -598,38 +555,34 @@ header {
 .myWorkGallery {
     margin-top: 100px;
     font-family: 'Montserrat', sans-serif;
-
 }
 
 h4 {
     color: #FFC107;
     font-size: 2rem;
 }
-
-/* ============================================================= Gallery */
+/*================================================================== END MY WORK*/
+/* ============================================================= START Gallery */
 
 .workGallery {
     display: flex;
-    /* flex-wrap: wrap; */
-    /* position: absolute; */
-    /* left: 108px; */
     top: 200px;
 }
 
 .galleryText {
-    background-image: url(./assets/dottedGraphic.png);
     width: 50%;
     padding: 30px;
+    background: #fbf0e4;
 }
 
-/* .galleryImages{
+.galleryImages{
     display: block;
     width: 40%;
-} */
+}
 
 .galleryItem {
-    height: 300px;
-    width: 40%;
+    /* height: 300px;
+    width: 40%; */
 }
 
 Button {
@@ -653,14 +606,10 @@ Button:active {
     top: 1px;
 }
 
-.galleryContainer1 {
+/* .galleryContainer1 {
     display: flex;
     justify-content: space-between;
     margin-bottom: 60px;
-}
-
-.galleryText {
-    width: 50%;
 }
 
 .galleryContainer2 {
@@ -685,9 +634,17 @@ Button:active {
     display: flex;
     justify-content: space-between;
     margin-bottom: 60px;
+} */
+
+.galleryContainer{
+    display: flex;
+        justify-content: space-between;
+        margin-bottom: 60px;
 }
 
-.spacePic {
+.contactCourt {
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
     background-image: url(./assets/basketballBg.jpg);
     background-position: center;
     background-size: cover;
@@ -705,8 +662,8 @@ h5 {
     position: absolute;
     left: 40%;
 }
-
-/*===================================================== Contact */
+/* ============================================================= END Gallery */
+/*==============================================================START CONTACT*/
 
 .contactMe {
     background-color: black;
@@ -776,11 +733,6 @@ footer {
         bottom: 0px;
     }
 
-    .skillsSection2 {
-        top: 80px;
-        left: 22%;
-    }
-
     .skillContainer {
         height: 250px;
         width: 25%;
@@ -802,20 +754,10 @@ footer {
         height: 400px;
     }
 
-    .introSection {
-        height: 510px;
+    .skillsSection2{
+        position: static; 
     }
-
-    .aboutMeDescription {
-        right: 20px;
-        bottom: 35px;
-        font-size: 1.4rem;
-    }
-
-    .skillContainer {
-        height: 245px;
-    }
-
+/*==============================================================END CONTACT*/
 
 }
 
@@ -830,36 +772,27 @@ footer {
     }
 
     .fa-basketball-ball {
-        left: 80%
+        visibility: hidden;
+    }
+    h1{
+        padding-left: 30px;
     }
 
-    .sectionWithName {
-        padding-left: 0px;
+    .picOfMe{
+        padding-left: 35%;
     }
 
-    .sectionWithName p {
-        font-size: 1.2rem;
+    .scottie{
+        visibility: hidden;
     }
 
-    .lastName {
-        font-size: 5rem;
+    .skyline{
+        width: 100%;
+        padding-top: 70px;
+        padding-left: 50%;
     }
-
-    .hello {
-        top: 0px;
-        left: 14%;
-    }
-
-    .introSection {
-        height: 500px;
-    }
-
     .aboutMeDescription {
-        font-size: 1rem;
-        left: 70px;
-        bottom: 190px;
-        width: 80%;
-
+        padding: 5px 0px;
     }
 
     .picOfMe {
@@ -867,14 +800,30 @@ footer {
         height: 250px;
     }
 
-    .skillsSection2 {
-        left: 3%;
-        top: 68px;
+    .introSection{
+        position: relative;
+        left: 8%;
     }
 
-    .skillContainer {
-        width: 30%;
-        height: 200px;
+    .skillsSection2 {
+        width: 100%;
+        margin-left:8%;
+    }
+
+    .mySkills{
+        font-size: 1.5rem;
+    }
+
+    .myProfile{
+        left: 8%;
+    }
+    
+    .myProfile h3{
+        font-size: 1.2rem;
+    }
+
+    .myProfile p{
+        font-size: 2rem;
     }
 
     .title {
@@ -885,27 +834,7 @@ footer {
         font-size: .8rem;
     }
 
-    .myWork {
-        height: 3700px
-    }
-
-    .galleryContainer1 {
-        flex-direction: column;
-    }
-
-    .galleryContainer2 {
-        flex-direction: column;
-    }
-
-    .galleryContainer3 {
-        flex-direction: column;
-    }
-
-    .galleryContainer4 {
-        flex-direction: column;
-    }
-
-    .galleryContainer5 {
+    .galleryContainer{
         flex-direction: column;
     }
 
@@ -923,6 +852,19 @@ footer {
         left: 20%;
     }
 
+    .contactCourt{
+        left: 8%;
+    }
+
+    .contactMe{
+        position: relative;
+        left: 8%;
+    }
+
+    footer{
+        position: relative;
+        left: 8%;
+    }
     .contactInfo {
         flex-direction: column;
     }

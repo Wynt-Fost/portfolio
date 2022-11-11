@@ -33,59 +33,65 @@
             <span class="bar"></span>
         </div>
 
-        <div id="#home" class="sectionWithName">
-            <div class="ballCourt"><i class="fas fa-basketball-ball"></i></div>
-            <h1>
-                <span class="firstName">AKEEM</span> <br> <span class="lastName">FOSTER</span>
-            </h1>
-            <p>Web Developer</p> <br>
-            <p>Sports Fan & Computer Enthusiast</p>
-        </div>
-
-
-
+        <h1>
+            Front End Developer, Sports Fan and Computer Enthusiast
+        </h1>
+                
+        <img class="picOfMe" 
+        srcset="./assets/akeem-foster.png 480w,./assets/akeem-foster.png 800w"
+        sizes="(max-width: 600px) 480px,800px"
+    src="./assets/akeem-foster.png" alt="A picture of me">
     </header>
+    <section class="wrapper">
+        <div class="scottie-skyline">
+        <div class="scottie-skyline-img"><img class="skyline" src="./assets/toronto-skyline.png" alt="City of Toronto Skyline"></div>
+        <div class="scottie-skyline-img"><img class="scottie" src="./assets/scottie.png" alt=""></div>
+        </div>
+        
+    </section>
     <section class="introSection wrapper">
 
-        <div class="hello">
-
-            <p>who am i</p>
-
-            <h2>HELLO</h2>
-        </div>
-
         <div class="aboutMeDescription">
-            <p>I am a Toronto based web developer, who is able to build fully responsive websites and
-                apps using HTML,
-                CSS, JavaScript, React and WordPress. Great web design is more than pretty pictures which is why I am
-                able to make websites come alive with Javascript and using REST APIs. Lets work together to make your
-                business shine on the web.
+            <h2>Hi, I'm Akeem. Nice to meet you.</h2>
+            <p> I began my coding journey over two years ago building small sites and landing pages for fun. I then started learning
+            WordPress, after that I began to fall in love with web development and knew this is something I could do as a career. At
+            the end of 2020, I took a couple web development courses at Juno College. Then, in Oct 2021, I took their
+            immersive web development bootcamp. I am now an Alumni of Juno and currently work as a freelance developer for multiple
+            companies. I enjoy coding apps on a daily basis for fun.
             </p>
+            <p>Check out my <a href="https://www.linkedin.com/in/akeem-foster/">Linkedin</a></p>
         </div>
 
-        <img class="picOfMe" src="./assets/picOfMe.png" alt="A picture of me">
+        
 
     </section>
 
     <section class="wrapper skillsSection1">
+        
         <div class="skillsSection2">
-            <div class="skillContainer">
-                <p class="title">Im Awesome At</p>
-                <ul class="skillIcon">
-                    <li><i class="fab fa-html5"></i></li>
-                    <li><i class="fab fa-css3-alt"></i> </li>
-                    <li><i class="fab fa-js-square"></i></li>
-                </ul>
-                <p class="slText">HTML5, CSS3, Sass, Responsive, JavaScript/JQuery, Git, Restful API</p>
-            </div>
-            <div class="skillContainer">
-                <p class="title">I Cant Wait to Learn</p>
-                <ul class="learningIcon">
-                    <li><i class="fab fa-python"></i></li>
-                    <li><i class="fab fa-php"></i></li>
-                </ul>
-                <p class="slText">Python, PHP</p>
-            </div>
+            <div class="ballCourt"><i class="fas fa-basketball-ball"></i></div>
+            <h3>SKILLS</h3>
+            <div class="mySkills">
+
+                <div>
+                    <ul>
+                        <li>HTML5 <i class="fab fa-html5"></i></li>
+                        <li>CSS3 <i class="fab fa-css3"></i></li>
+                        <li>SCSS <i class="fab fa-sass"></i></li>
+                        <li>JavaScript <i class="fab fa-js-square"></i></li>
+                        <li>REACT <i class="fab fa-react"></i></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li>WordPress <i class="fab fa-wordpress"></i></li>
+                        <li>Git/GitHub <i class="fab fa-github"></i></li>
+                        <li>PHP<i class="fab fa-php"></i></li>
+                        <li>MySQL<i class="fab fa-database"></i></li>
+                        <li>Laravel<i class="fab fa-laravel"></i></li>
+                    </ul>
+                    </div>    
+                </div>
         </div>
     </section>
 
@@ -100,8 +106,8 @@
 
     <section class="myWork wrapper">
         <div id="work" class="myWorkGallery">
-            <div class="galleryContainer1">
-                <img class="galleryItem" src="./assets/gameFinder-removebg-preview.png"
+            <div class="galleryContainer">
+                <img class="galleryItem"  src="./assets/gameFinder-removebg-preview.png"
                     alt="picture of my game finer app in an old tv">
                 <div class="galleryText">
                     <h4>Game Finder App</h4>
@@ -111,7 +117,7 @@
                     <a href="https://textilee.netlify.app/"><button>Git Hub</button></a>
                 </div>
             </div>
-            <div class="galleryContainer2">
+            <div class="galleryContainer">
                 <div class="galleryText">
                     <h4>Backronym Generator</h4>
                     <p>React|Firebase|RESTful API</p>
@@ -124,7 +130,7 @@
                 <img class="galleryItem " src="./assets/backronym-removebg-preview.png"
                     alt="picture of my backronym app in an old tv">
             </div>
-            <div class="galleryContainer3">
+            <div class="galleryContainer">
                 <img class="galleryItem" src="./assets/whatsInYourFridge-removebg-preview.png"
                     alt="picture of my whats in your fridge app in an old tv">
                 <div class="galleryText">
@@ -137,7 +143,7 @@
                             Hub</button></a>
                 </div>
             </div>
-            <div class="galleryContainer4">
+            <div class="galleryContainer">
                 <div class="galleryText">
                     <h4>Grain Refinishing</h4>
                     <p>WordPress</p>
@@ -147,21 +153,21 @@
                 <img class="galleryItem" src="./assets/grain-removebg-preview.png"
                     alt="picture of my website called grain refinishing">
             </div>
-            <div class="galleryContainer5">
+            <div class="galleryContainer">
                 <img class="galleryItem" src="./assets/textilee-removebg-preview.png"
                     alt="picture of my textilee website in an old tv">
-                <di class="galleryText">
+                <div class="galleryText">
                     <h4>Textilee</h4>
                     <p>HTML|CSS</p>
                     <p>A site I created in which I translated a static design image into a functional website. </p>
                     <a href="https://textilee.netlify.app/"><button>Live View</button></a>
                     <a href="https://github.com/Wynt-Fost/akeemFosterProjectOne"><button>Git Hub</button></a>
+                </div>
             </div>
-        </div>
         </div>
 
     </section>
-    <div id="contact" class="wrapper spacePic">
+    <div id="contact" class="wrapper spacePic contactCourt">
         <h5>CONTACT</h5>
     </div>
     <section class="contactMe wrapper">
@@ -188,7 +194,10 @@
 
 
     <footer class="wrapper">
-        Created by Akeem Foster
+        <p>Created by Akeem Foster -
+            <a href="https://www.linkedin.com/in/akeem-foster/">Linkedin</a>
+        </p>
+
     </footer>
     <script src="script.js"></script>
 </body>
