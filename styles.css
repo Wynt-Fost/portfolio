@@ -887,3 +887,37 @@ footer {
         height: 0px;
     }
 }
+@media(max-width: 390px){
+h1{
+    width: 80%;
+}
+
+.picOfMe{
+    padding-left: 25%;
+}
+
+.skyline{
+    padding-top: 85px;
+}
+
+.introSection{
+    left: 0%;
+}
+
+.skillsSection2{
+    margin-left: 0%;
+}
+.myProfile{
+    left: 0%;
+}
+.contactCourt {
+    left: 0%;
+}
+
+.contactMe {
+    left: 0%;
+}
+footer{
+left: 0%;
+}
+}
