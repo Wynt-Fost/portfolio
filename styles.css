@@ -41,7 +41,8 @@ pre {
 
 a {
     background-color: transparent;
-    -webkit-text-decoration-skip: objects
+    -webkit-text-decoration-skip: objects;
+    color: #FFC107;;
 }
 
 abbr[title] {
@@ -254,7 +255,7 @@ a {
     transform: translate(-50%, -40%);
     font-size: 62px;
     font-family: 'Montserrat', sans-serif;
-    color: #fff;
+    color: #FFC107;
     cursor: pointer;
 }
 
@@ -427,7 +428,7 @@ h1 {
     padding: 10px;
     font-size: 1.2rem;
     font-family: 'Montserrat', sans-serif;
-    padding-top: 100px;
+    padding-top: 35px;
 }
 /* =====================================================================END ABOUT ME*/
 /* ============================================================= START BASKETBALL BOUNCE */
@@ -606,36 +607,6 @@ Button:active {
     top: 1px;
 }
 
-/* .galleryContainer1 {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 60px;
-}
-
-.galleryContainer2 {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 60px;
-}
-
-.galleryContainer3 {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 60px;
-}
-
-.galleryContainer4 {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 60px;
-}
-
-.galleryContainer5 {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 60px;
-} */
-
 .galleryContainer{
     display: flex;
         justify-content: space-between;
@@ -726,11 +697,11 @@ footer {
     padding-top: 25px;
     text-align: center;
 }
-
+/*==============================================================END CONTACT*/
 @media(max-width: 1025px) {
-
-    .aboutMeDescription {
-        bottom: 0px;
+    .introSection{
+        height: 650px;
+      
     }
 
     .skillContainer {
@@ -741,9 +712,9 @@ footer {
 
 @media(max-width: 760px) {
 
-    .fa-basketball-ball {
-        left: 70%
-    }
+    .skillsSection1 {
+            height: 430px;
+        }
 
     .sectionWithName {
         padding-left: 20px;
@@ -757,11 +728,15 @@ footer {
     .skillsSection2{
         position: static; 
     }
-/*==============================================================END CONTACT*/
+
 
 }
 
 @media(max-width: 480px) {
+
+    .introSection{
+        height: 750px;
+    }
 
     .burgerIcon:before {
         visibility: hidden;
@@ -834,6 +809,10 @@ footer {
         font-size: .8rem;
     }
 
+    .myWork{
+        padding-left: 8%;
+    }
+
     .galleryContainer{
         flex-direction: column;
     }
@@ -888,6 +867,7 @@ footer {
     }
 }
 @media(max-width: 390px){
+    
 h1{
     width: 80%;
 }
@@ -898,26 +878,5 @@ h1{
 
 .skyline{
     padding-top: 85px;
-}
-
-.introSection{
-    left: 0%;
-}
-
-.skillsSection2{
-    margin-left: 0%;
-}
-.myProfile{
-    left: 0%;
-}
-.contactCourt {
-    left: 0%;
-}
-
-.contactMe {
-    left: 0%;
-}
-footer{
-left: 0%;
 }
 }
