@@ -9,6 +9,10 @@ body {
     background: #fbf0e4;
 }
 
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+
 article,
 aside,
 footer,
@@ -380,6 +384,10 @@ h1 {
     padding-top: 50px;
 }
 
+h2{
+    font-family: 'Montserrat', sans-serif;
+}
+
 .ballCourt {
     width: 100%;
 }
@@ -551,6 +559,20 @@ h1 {
 .myWork {
     position: relative;
     width: 100%;
+}
+
+.highLightContainer{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;}
+
+.projectsHighlights{
+    width: 100%;
+}
+
+.highlight1{
+    width: 50%;
+    
 }
 
 .myWorkGallery {
