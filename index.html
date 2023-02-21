@@ -1,224 +1,344 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Playfair+Display:wght@400;700&display=swap"
-        rel="stylesheet">
-    <script src="https://kit.fontawesome.com/80e3897e43.js" crossorigin="anonymous"></script>
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Playfair+Display:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/80e3897e43.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Akeem Foster Portfolio</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header class="wrapper">
+      <nav class="navBar">
+        <ul class="navMenu" id="navMenu">
+          <li class="navItem"><a href="#home" class="navLink"> Home </a></li>
+          <li class="navItem"><a href="#work" class="navLink"> Work </a></li>
+          <li class="navItem">
+            <a href="#contact" class="navLink"> Contact </a>
+          </li>
+        </ul>
+      </nav>
+      <div class="burgerIcon" id="burgerIcon">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
 
-        <nav class="navBar">
-            <ul class="navMenu" id="navMenu">
-                <li class="navItem"><a href="#home" class="navLink"> Home </a></li>
-                <li class="navItem"><a href="#work" class="navLink"> Work </a></li>
-                <li class="navItem"><a href="#contact" class="navLink"> Contact </a>
-                </li>
-            </ul>
+      <h1>Front End Developer, Sports Fan and Computer Enthusiast</h1>
 
-        </nav>
-        <div class="burgerIcon" id="burgerIcon">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-        </div>
-
-        <h1>
-            Front End Developer, Sports Fan and Computer Enthusiast
-        </h1>
-                
-        <img class="picOfMe" 
-        srcset="./assets/akeem-foster.png 480w,./assets/akeem-foster.png 800w"
+      <img
+        class="picOfMe"
+        srcset="./assets/akeem-foster.png 480w, ./assets/akeem-foster.png 800w"
         sizes="(max-width: 600px) 480px,800px"
-    src="./assets/akeem-foster.png" alt="A picture of me">
+        src="./assets/akeem-foster.png"
+        alt="A picture of me"
+      />
     </header>
     <section class="wrapper">
-        <div class="scottie-skyline">
-        <div class="scottie-skyline-img"><img class="skyline" src="./assets/toronto-skyline.png" alt="City of Toronto Skyline"></div>
-        <div class="scottie-skyline-img"><img class="scottie" src="./assets/scottie.png" alt=""></div>
+      <div class="scottie-skyline">
+        <div class="scottie-skyline-img">
+          <img
+            class="skyline"
+            src="./assets/toronto-skyline.png"
+            alt="City of Toronto Skyline"
+          />
         </div>
-        
+        <div class="scottie-skyline-img">
+          <img class="scottie" src="./assets/scottie.png" alt="" />
+        </div>
+      </div>
     </section>
     <section class="introSection wrapper">
+      <div class="aboutMeDescription">
+        <h2>Hi, I'm Akeem. Nice to meet you.</h2>
+        <p>
+          I absolutely love coding. There's something so satisfying about taking
+          an idea and turning it into a functioning program. Being able to write
+          in JavaScript, CSS, HTML, and React allows me to bring my ideas to
+          life in the most beautiful and interactive way possible. Whether I'm
+          building a simple website or a complex web application, I find joy in
+          every line of code I write. The flexibility and versatility of these
+          technologies enable me to tackle any project I set my mind to and I
+          can't imagine doing anything else.
+        </p>
+        <p>
+          Two years ago, I began my coding journey by building small sites and
+          web applications. I then learned WordPress, and I fell in love with it
+          quickly. I knew this was something I could do as a career, so I took
+          an intro to web development course at
+          <a href="https://junocollege.com">Juno College</a> in October 2021.
+          After that, I took a JavaScript course and the Immersive BootCamp. I
+          am now a freelance developer and Alumni of Juno College.
+        </p>
 
-        <div class="aboutMeDescription">
-            <h2>Hi, I'm Akeem. Nice to meet you.</h2>
-                <p>
-                    I absolutely love coding. There's something so satisfying about taking an idea and turning it into a functioning
-                    program. Being able to write in JavaScript, CSS, HTML, and React allows me to bring my ideas to life in the most
-                    beautiful and interactive way possible. Whether I'm building a simple website or a complex web application, I find joy
-                    in every line of code I write. The flexibility and versatility of these technologies enable me to tackle any project I
-                    set my mind to and I can't imagine doing anything else.</p>
-                <p> Two years ago, I began my coding journey by building small sites and web applications. I then learned WordPress, and
-                    I fell in love with it quickly. I knew this was something I could do as a career, so I took an intro to web
-                    development course at <a href="https://junocollege.com">Juno College</a> in October 2021. After that, I took a JavaScript course
-                    and the Immersive BootCamp. I am now a freelance developer and Alumni of Juno College.
-                    <p> Please take a look at my linked in and github. Both are linked below. Scroll down to look at some project Ive done!</p>
-                    <p>Check out my <a href="https://www.linkedin.com/in/akeem-foster/">Linkedin</a> and <a href="https://github.com/Wynt-Fost">GitHub</a></p>
-        </div>
+        <p>
+          Please take a look at my linked in and github. Both are linked below.
+          Scroll down to look at some project Ive done!
+        </p>
+        <p>
+          Check out my
+          <a href="https://www.linkedin.com/in/akeem-foster/">Linkedin</a> and
+          <a href="https://github.com/Wynt-Fost">GitHub</a>
+        </p>
+      </div>
     </section>
 
     <section class="wrapper skillsSection1">
-        
-        <div class="skillsSection2">
-            <div class="ballCourt"><i class="fas fa-basketball-ball"></i></div>
-            <h3>SKILLS</h3>
-            <div class="mySkills">
-
-                <div>
-                    <ul>
-                        <li>HTML5 <i class="fab fa-html5"></i></li>
-                        <li>CSS3 <i class="fab fa-css3"></i></li>
-                        <li>SCSS <i class="fab fa-sass"></i></li>
-                        <li>JavaScript <i class="fab fa-js-square"></i></li>
-                        <li>REACT <i class="fab fa-react"></i></li>
-                    </ul>
-                </div>
-                <div>
-                    <ul>
-                        <li>WordPress <i class="fab fa-wordpress"></i></li>
-                        <li>Git/GitHub <i class="fab fa-github"></i></li>
-                        <li>PHP<i class="fab fa-php"></i></li>
-                        <li>MySQL<i class="fab fa-database"></i></li>
-                        <li>Laravel<i class="fab fa-laravel"></i></li>
-                    </ul>
-                    </div>    
-                </div>
+      <div class="skillsSection2">
+        <div class="ballCourt"><i class="fas fa-basketball-ball"></i></div>
+        <h3>SKILLS</h3>
+        <div class="mySkills">
+          <div>
+            <ul>
+              <li>HTML5 <i class="fab fa-html5"></i></li>
+              <li>CSS3 <i class="fab fa-css3"></i></li>
+              <li>SCSS <i class="fab fa-sass"></i></li>
+              <li>JavaScript <i class="fab fa-js-square"></i></li>
+              <li>REACT <i class="fab fa-react"></i></li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+              <li>WordPress <i class="fab fa-wordpress"></i></li>
+              <li>Git/GitHub <i class="fab fa-github"></i></li>
+              <li>PHP<i class="fab fa-php"></i></li>
+              <li>MySQL<i class="fab fa-database"></i></li>
+              <li>Laravel<i class="fab fa-laravel"></i></li>
+            </ul>
+          </div>
         </div>
+      </div>
     </section>
 
     <section class="myProfile wrapper">
-        <div class="myProfileText">
+      <div class="myProfileText">
+        <p>Awesome Projects</p>
 
-            <p>Awesome Projects</p>
-
-            <h3>My Work</h3>
-        </div>
+        <h3>My Work</h3>
+      </div>
     </section>
 
     <section class="myWork wrapper">
-
-        <div class="highLightContainer">
-            <h2>Recent Project Highlights</h2>
+      <div class="highLightContainer">
+        <h2>Recent Project Highlights</h2>
         <div class="highLightDescription">
-            <p>Outside of my formal learning at Juno College, I have continually been doubling down on my JavaScript Skills as well learning how to use Databases. Below you can find some of my most recent projects</p>
+          <p>
+            Outside of my formal learning at Juno College, I have continually
+            been doubling down on my JavaScript Skills as well learning how to
+            use Databases. Below you can find some of my most recent projects
+          </p>
         </div>
         <div class="projectsHighlights">
-            <div class="highlight1">
-                
-                <h2>Blog Post using Laravel and SQL</h2>
-                <p>I've been learning PHP to work on WordPress sites, and it got me wondering what else I can do with it. So I built a
-                project using Laravel - a blog connected to a SQL database. It's pretty basic, but it taught me a lot about databases
-                and the stuff that goes into them. Check it out! <a href="https://github.com/Wynt-Fost/Blog-Post">Blog Project</a> </p></div>
-            <div></div>
+          <div class="highlights">
+            <h2>Blog Post using Laravel and SQL</h2>
+            <p>
+              I've been learning PHP to work on WordPress sites, and it got me
+              wondering what else I can do with it. So I built a project using
+              Laravel - a blog connected to a SQL database. It's pretty basic,
+              but it taught me a lot about databases and the stuff that goes
+              into them. <br />
+              Check it out!
+              <a class="grow" href="https://github.com/Wynt-Fost/Blog-Post"
+                >Blog Project</a
+              >
+            </p>
+          </div>
+          <div class="highlights">
+            <h2>WordPress Custom Theme</h2>
+            <p>
+              I have been creating a custom theme for WordPress practice which I
+              find is an excellent way to gain hands-on experience in theme
+              development. With PHP, you can build dynamic and interactive web
+              pages that can enhance the user experience. As I practice, I will
+              gain a better understanding of PHP and WordPress and develop the
+              skills necessary to create custom themes and plugins. Building a
+              website with PHP and WordPress is a great way to hone my web
+              development skills and prepare myself for a potential career in
+              the field. <br />
+              Check it out!
+              <a
+                class="grow"
+                href="https://github.com/Wynt-Fost/Fictional-University-Custom-WordPress-Theme"
+                >My Custom Theme</a
+              >
+            </p>
+          </div>
         </div>
-        </div>
+      </div>
 
-        <div id="work" class="myWorkGallery">
-            <div class="galleryContainer">
-                <img class="galleryItem"  src="./assets/gameFinder-removebg-preview.png"
-                    alt="picture of my game finer app in an old tv">
-                <div class="galleryText">
-                    <h4>Game Finder App</h4>
-                    <p>React|RESTful API</p>
-                    <p>This is an app that will find and display information about any video game you search.</p>
-                    <a href="https://levelupgamefinder.netlify.app/"><button>Live View</button></a>
-                    <a href="https://github.com/Wynt-Fost/game-app"><button>Git Hub</button></a>
-                </div>
-            </div>
-            <div class="galleryContainer">
-                <div class="galleryText">
-                    <h4>Backronym Generator</h4>
-                    <p>React|Firebase|RESTful API</p>
-                    <p>This app was created by me and three other developers. Here we created an app that will display a
-                        backronym using the datamuse api. It will also store and display past entries using Firebase.
-                    </p>
-                    <a href="https://bbackronym.netlify.app/"><button>Live View</button></a>
-                    <a href="https://github.com/Juno-College-Project4/Backronym-Generator"><button>Git Hub</button></a>
-                </div>
-                <img class="galleryItem " src="./assets/backronym-removebg-preview.png"
-                    alt="picture of my backronym app in an old tv">
-            </div>
-            <div class="galleryContainer">
-                <img class="galleryItem" src="./assets/whatsInYourFridge-removebg-preview.png"
-                    alt="picture of my whats in your fridge app in an old tv">
-                <div class="galleryText">
-                    <h4>What's In Your Fridge</h4>
-                    <p>HTML|SCSS|JavaScript|RESTful API</p>
-                    <p>An app that any chef will love! Input items in your fridge to get back recipes. This is using the
-                        spoonacular api.</p>
-                    <a href="https://whats-in-your-fridge-eb-af.netlify.app/"><button>Live View</button></a>
-                    <a href="https://github.com/juno-recipe-application/whats-in-your-fridge"><button>Git
-                            Hub</button></a>
-                </div>
-            </div>
-            <div class="galleryContainer">
-                <div class="galleryText">
-                    <h4>Grain Refinishing</h4>
-                    <p>WordPress</p>
-                    <p>A website I created for my small business using WordPress.</p>
-                    <a href="https://grainrefinishing.ca/"><button>Live View</button></a>
-                </div>
-                <img class="galleryItem" src="./assets/grain-removebg-preview.png"
-                    alt="picture of my website called grain refinishing">
-            </div>
-            <div class="galleryContainer">
-                <img class="galleryItem" src="./assets/textilee-removebg-preview.png"
-                    alt="picture of my textilee website in an old tv">
-                <div class="galleryText">
-                    <h4>Textilee</h4>
-                    <p>HTML|CSS</p>
-                    <p>A site I created in which I translated a static design image into a functional website. </p>
-                    <a href="https://textilee.netlify.app/"><button>Live View</button></a>
-                    <a href="https://github.com/Wynt-Fost/akeemFosterProjectOne"><button>Git Hub</button></a>
-                </div>
-            </div>
+      <div id="work" class="myWorkGallery">
+        <div class="galleryContainer">
+          <img
+            class="galleryItem"
+            src="./assets/gameFinder-removebg-preview.png"
+            alt="picture of my game finer app in an old tv"
+          />
+          <div class="galleryText">
+            <h4>Game Finder App</h4>
+            <p>React|RESTful API</p>
+            <p>
+              This is an app that will find and display information about any
+              video game you search.
+            </p>
+            <a href="https://levelupgamefinder.netlify.app/"
+              ><button>Live View</button></a
+            >
+            <a href="https://github.com/Wynt-Fost/game-app"
+              ><button>Git Hub</button></a
+            >
+          </div>
         </div>
-
+        <div class="galleryContainer">
+          <div class="galleryText">
+            <h4>Backronym Generator</h4>
+            <p>React|Firebase|RESTful API</p>
+            <p>
+              This app was created by me and three other developers. Here we
+              created an app that will display a backronym using the datamuse
+              api. It will also store and display past entries using Firebase.
+            </p>
+            <a href="https://bbackronym.netlify.app/"
+              ><button>Live View</button></a
+            >
+            <a
+              href="https://github.com/Juno-College-Project4/Backronym-Generator"
+              ><button>Git Hub</button></a
+            >
+          </div>
+          <img
+            class="galleryItem"
+            src="./assets/backronym-removebg-preview.png"
+            alt="picture of my backronym app in an old tv"
+          />
+        </div>
+        <div class="galleryContainer">
+          <img
+            class="galleryItem"
+            src="./assets/whatsInYourFridge-removebg-preview.png"
+            alt="picture of my whats in your fridge app in an old tv"
+          />
+          <div class="galleryText">
+            <h4>What's In Your Fridge</h4>
+            <p>HTML|SCSS|JavaScript|RESTful API</p>
+            <p>
+              An app that any chef will love! Input items in your fridge to get
+              back recipes. This is using the spoonacular api.
+            </p>
+            <a href="https://whats-in-your-fridge-eb-af.netlify.app/"
+              ><button>Live View</button></a
+            >
+            <a
+              href="https://github.com/juno-recipe-application/whats-in-your-fridge"
+              ><button>Git Hub</button></a
+            >
+          </div>
+        </div>
+        <div class="galleryContainer">
+          <div class="galleryText">
+            <h4>Grain Refinishing</h4>
+            <p>WordPress</p>
+            <p>A website I created for my small business using WordPress.</p>
+            <a href="https://grainrefinishing.ca/"
+              ><button>Live View</button></a
+            >
+          </div>
+          <img
+            class="galleryItem"
+            src="./assets/grain-removebg-preview.png"
+            alt="picture of my website called grain refinishing"
+          />
+        </div>
+        <div class="galleryContainer">
+          <img
+            class="galleryItem"
+            src="./assets/textilee-removebg-preview.png"
+            alt="picture of my textilee website in an old tv"
+          />
+          <div class="galleryText">
+            <h4>Textilee</h4>
+            <p>HTML|CSS</p>
+            <p>
+              A site I created in which I translated a static design image into
+              a functional website.
+            </p>
+            <a href="https://textilee.netlify.app/"
+              ><button>Live View</button></a
+            >
+            <a href="https://github.com/Wynt-Fost/akeemFosterProjectOne"
+              ><button>Git Hub</button></a
+            >
+          </div>
+        </div>
+      </div>
     </section>
     <div id="contact" class="wrapper spacePic contactCourt">
-        <h5>CONTACT</h5>
+      <h5>CONTACT</h5>
     </div>
     <section class="contactMe wrapper">
+      <div class="contactForm">
+        <div class="contactMeText">
+          <form
+            class="form"
+            id="fsFrm"
+            name="simple-contact-form"
+            accept-charset="utf-8"
+            action="https://formspree.io/f/mnqwpgvb"
+            method="POST"
+          >
+            <input
+              type="text"
+              name="name"
+              id="fullName"
+              placeholder="Name"
+              required=""
+            />
 
-        <div class="contactForm">
-            <div class="contactMeText">
-                <form class="form" id="fsFrm" name="simple-contact-form" accept-charset="utf-8"
-                    action="https://formspree.io/f/mnqwpgvb" method="POST">
+            <input
+              type="email"
+              name="_replyto"
+              id="email-address"
+              placeholder="Email"
+              required=""
+            />
+            <br />
 
-                    <input type="text" name="name" id="fullName" placeholder="Name" required="">
+            <textarea
+              rows="5"
+              name="message"
+              id="message"
+              placeholder="Message"
+              required=""
+            ></textarea>
+            <input
+              type="hidden"
+              name="_subject"
+              id="emailSubject"
+              value="Contact Form Submission"
+            />
 
-                    <input type="email" name="_replyto" id="email-address" placeholder="Email" required=""> <br>
-
-                    <textarea rows="5" name="message" id="message" placeholder="Message" required=""></textarea>
-                    <input type="hidden" name="_subject" id="emailSubject" value="Contact Form Submission">
-
-                    <input class="formSubmit" type="submit" value="Submit">
-                </form>
-            </div>
+            <input class="formSubmit" type="submit" value="Submit" />
+          </form>
         </div>
-
+      </div>
     </section>
 
-
-
     <footer class="wrapper">
-        <p>Created by Akeem Foster -
-            <a href="https://www.linkedin.com/in/akeem-foster/">Linkedin</a>
-        </p>
-
+      <p>
+        Created by Akeem Foster -
+        <a href="https://www.linkedin.com/in/akeem-foster/">Linkedin</a>
+      </p>
     </footer>
     <script src="script.js"></script>
-</body>
-
+  </body>
 </html>

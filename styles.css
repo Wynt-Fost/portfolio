@@ -1,16 +1,16 @@
 html {
-    line-height: 1.15;
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%
+  line-height: 1.15;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
 }
 
 body {
-    margin: 0;
-    background: #fbf0e4;
+  margin: 0;
+  background: #fbf0e4;
 }
 
-p{
-    font-family: 'Montserrat', sans-serif;
+p {
+  font-family: "Montserrat", sans-serif;
 }
 
 article,
@@ -19,100 +19,104 @@ footer,
 header,
 nav,
 section {
-    display: block
+  display: block;
 }
 
 figcaption,
 figure,
 main {
-    display: block
+  display: block;
 }
 
 figure {
-    margin: 1em 40px
+  margin: 1em 40px;
 }
 
 hr {
-    box-sizing: content-box;
-    height: 0;
-    overflow: visible
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
 }
 
 pre {
-    font-family: monospace, monospace;
-    font-size: 1em
+  font-family: monospace, monospace;
+  font-size: 1em;
 }
 
 a {
-    background-color: transparent;
-    -webkit-text-decoration-skip: objects;
-    color: #FFC107;;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+  color: blue;
+}
+
+a:hover {
+  color: rgb(0, 94, 255);
 }
 
 abbr[title] {
-    border-bottom: none;
-    text-decoration: underline;
-    text-decoration: underline dotted
+  border-bottom: none;
+  text-decoration: underline;
+  text-decoration: underline dotted;
 }
 
 b,
 strong {
-    font-weight: inherit
+  font-weight: inherit;
 }
 
 b,
 strong {
-    font-weight: bolder
+  font-weight: bolder;
 }
 
 code,
 kbd,
 samp {
-    font-family: monospace, monospace;
-    font-size: 1em
+  font-family: monospace, monospace;
+  font-size: 1em;
 }
 
 dfn {
-    font-style: italic
+  font-style: italic;
 }
 
 mark {
-    background-color: #ff0;
-    color: #000
+  background-color: #ff0;
+  color: #000;
 }
 
 small {
-    font-size: 80%
+  font-size: 80%;
 }
 
 sub,
 sup {
-    font-size: 75%;
-    line-height: 0;
-    position: relative;
-    vertical-align: baseline
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
 }
 
 sub {
-    bottom: -.25em
+  bottom: -0.25em;
 }
 
 sup {
-    top: -.5em
+  top: -0.5em;
 }
 
 audio,
 video {
-    display: inline-block
+  display: inline-block;
 }
 
 audio:not([controls]) {
-    display: none;
-    height: 0
+  display: none;
+  height: 0;
 }
 
 svg:not(:root) {
-    overflow: hidden
+  overflow: hidden;
 }
 
 button,
@@ -120,785 +124,772 @@ input,
 optgroup,
 select,
 textarea {
-    font-family: sans-serif;
-    font-size: 100%;
-    line-height: 1.15;
-    margin: 0
+  font-family: sans-serif;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
 }
 
 button,
 input {
-    overflow: visible
+  overflow: visible;
 }
 
 button,
 select {
-    text-transform: none
+  text-transform: none;
 }
 
 button,
-html [type=button],
-[type=reset],
-[type=submit] {
-    -webkit-appearance: button
+html [type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
 }
 
 button::-moz-focus-inner,
-[type=button]::-moz-focus-inner,
-[type=reset]::-moz-focus-inner,
-[type=submit]::-moz-focus-inner {
-    border-style: none;
-    padding: 0
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
 }
 
 button:-moz-focusring,
-[type=button]:-moz-focusring,
-[type=reset]:-moz-focusring,
-[type=submit]:-moz-focusring {
-    outline: 1px dotted ButtonText
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
 }
 
 fieldset {
-    padding: .35em .75em .625em
+  padding: 0.35em 0.75em 0.625em;
 }
 
 legend {
-    box-sizing: border-box;
-    color: inherit;
-    display: table;
-    max-width: 100%;
-    padding: 0;
-    white-space: normal
+  box-sizing: border-box;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal;
 }
 
 progress {
-    display: inline-block;
-    vertical-align: baseline
+  display: inline-block;
+  vertical-align: baseline;
 }
 
 textarea {
-    overflow: auto
+  overflow: auto;
 }
 
-[type=checkbox],
-[type=radio] {
-    box-sizing: border-box;
-    padding: 0
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
 }
 
-[type=number]::-webkit-inner-spin-button,
-[type=number]::-webkit-outer-spin-button {
-    height: auto
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
 }
 
-[type=search] {
-    -webkit-appearance: textfield;
-    outline-offset: -2px
+[type="search"] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
 }
 
-[type=search]::-webkit-search-cancel-button,
-[type=search]::-webkit-search-decoration {
-    -webkit-appearance: none
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
 }
 
 ::-webkit-file-upload-button {
-    -webkit-appearance: button;
-    font: inherit
+  -webkit-appearance: button;
+  font: inherit;
 }
 
 details,
 menu {
-    display: block;
+  display: block;
 }
 
 summary {
-    display: list-item;
+  display: list-item;
 }
 
 canvas {
-    display: inline-block;
+  display: inline-block;
 }
 
 template {
-    display: none;
+  display: none;
 }
 
 [hidden] {
-    display: none;
+  display: none;
 }
 
-
 li {
-    list-style: none;
+  list-style: none;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .wrapper {
-    margin: 0 auto;
-    max-width: 1200px;
+  margin: 0 auto;
+  max-width: 1200px;
 }
-
-
 
 /* ====================================================================== HEADER AND NAV*/
 
 .icon {
-    height: 80px;
-    width: 8%;
+  height: 80px;
+  width: 8%;
 }
 
 .burgerIcon {
-    position: absolute;
-    z-index: 3;
-    width: 56px;
-    top: 8%;
-    left: 85%;
-    transform: translate(-50%, -40%);
-    font-size: 62px;
-    font-family: 'Montserrat', sans-serif;
-    color: #FFC107;
-    cursor: pointer;
+  position: absolute;
+  z-index: 3;
+  width: 56px;
+  top: 8%;
+  left: 85%;
+  transform: translate(-50%, -40%);
+  font-size: 62px;
+  font-family: "Montserrat", sans-serif;
+  color: #ffc107;
+  cursor: pointer;
 }
 
 .burgerIcon::before,
 .burgerIcon::after {
-    position: absolute;
-    transition: 0.4s ease;
-    opacity: 0;
-    pointer-events: none;
+  position: absolute;
+  transition: 0.4s ease;
+  opacity: 0;
+  pointer-events: none;
 }
 
 .burgerIcon:before {
-    content: "M \00a0 \00a0 \00a0 \00a0 \00a0U";
-    top: -60px;
-    left: -100%;
-    width: 215px;
+  content: "M \00a0 \00a0 \00a0 \00a0 \00a0U";
+  top: -60px;
+  left: -100%;
+  width: 215px;
 }
 
 .burgerIcon:after {
-    content: "N";
-    top: 50px;
-    left: 96%;
+  content: "N";
+  top: 50px;
+  left: 96%;
 }
 
 .burgerIcon:hover::before,
 .burgerIcon:hover::after {
-    top: -16px;
-    opacity: 1;
-    transition: 0.2s ease, opacity 0.17s 0.03s ease-in;
+  top: -16px;
+  opacity: 1;
+  transition: 0.2s ease, opacity 0.17s 0.03s ease-in;
 }
 
 .bar {
-    width: 80%;
-    height: 3px;
-    display: block;
-    background: black;
-    margin: 0 auto 16px;
-    transition: transform 0.4s ease;
+  width: 80%;
+  height: 3px;
+  display: block;
+  background: black;
+  margin: 0 auto 16px;
+  transition: transform 0.4s ease;
 }
 
 .navMenu {
-    display: flex;
-    align-items: center;
-    gap: 40px;
-    position: fixed;
-    left: -110%;
-    top: 10px;
-    gap: 0;
-    flex-direction: column;
-    background-color: black;
-    width: 100%;
-    height: 300px;
-    text-align: center;
-    transition: 0.5s;
-    z-index: 1;
-    opacity: 90%;
-    font-family: 'Montserrat', sans-serif;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  position: fixed;
+  left: -110%;
+  top: 10px;
+  gap: 0;
+  flex-direction: column;
+  background-color: black;
+  width: 100%;
+  height: 300px;
+  text-align: center;
+  transition: 0.5s;
+  z-index: 1;
+  opacity: 90%;
+  font-family: "Montserrat", sans-serif;
 }
 
 .navItem {
-    margin: 10px 0;
-    padding-top: 40px;
-    font-size: 1.5rem;
+  margin: 10px 0;
+  padding-top: 40px;
+  font-size: 1.5rem;
 }
 
 .navBar {
-    justify-content: space-between;
-    height: 150px;
-    align-items: center;
+  justify-content: space-between;
+  height: 150px;
+  align-items: center;
 }
 
 .navLink {
-    transition: 0.6s ease;
-    color: white;
+  transition: 0.6s ease;
+  color: white;
 }
 
 .navLink:hover {
-    color: #FFC107;
+  color: #ffc107;
 }
 
 .navMenu.active {
-    left: 0;
+  left: 0;
 }
 
 /* ====================================================================== END NAV*/
 /* ====================================================================== HEADER CONT*/
 header {
-    height: 50vh;
+  height: 50vh;
 }
 
 .picOfMe {
-    padding-top: 100px;
-    padding-left: 20%;
+  padding-top: 100px;
+  padding-left: 20%;
 }
 
-.scottie-skyline{
-    display: flex;
+.scottie-skyline {
+  display: flex;
 }
 
-.scottie-skyline-img{
-    width: 50%;
+.scottie-skyline-img {
+  width: 50%;
 }
-.scottie{
-   float: right;
- 
+.scottie {
+  float: right;
 }
 
-.skyline{
-    position: relative;
-    top: 73%;
-    left: 10%;
-    float: left;
+.skyline {
+  position: relative;
+  top: 73%;
+  left: 10%;
+  float: left;
 }
 
 h1 {
-    font-size: 2em;
-    width: 100%;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    text-align: center;
-    position: relative;
-    padding-top: 50px;
+  font-size: 2em;
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  position: relative;
+  padding-top: 50px;
 }
 
-h2{
-    font-family: 'Montserrat', sans-serif;
+h2 {
+  font-family: "Montserrat", sans-serif;
 }
 
 .ballCourt {
-    width: 100%;
+  width: 100%;
 }
 
 .fa-basketball-ball {
-    color: orange;
-    font-size: 2rem;
-    animation: bounce 1s linear;
-    position: absolute;
-    left: 65%;
-    top: 5%;
-    animation: bounce 1.5s infinite;
+  color: orange;
+  font-size: 2rem;
+  animation: bounce 1s linear;
+  position: absolute;
+  left: 65%;
+  top: 5%;
+  animation: bounce 1.5s infinite;
 }
-
-
 
 /* =====================================================================END HEADER */
 
 /* ===================================================================== ABOUT ME*/
 .introSection {
-    background-color: black;
-    height: 600px;
-    border-radius: 50px;
-    border-style: solid;
-    border-color:#FFC107;
-    }
+  background-color: black;
+  height: 600px;
+  border-radius: 50px;
+  border-style: solid;
+  border-color: #ffc107;
+}
 
 .hello p {
-    color: white;
-    font-family: 'Playfair Display', serif;
-    font-size: 1.5rem;
+  color: white;
+  font-family: "Playfair Display", serif;
+  font-size: 1.5rem;
 }
 
 .introSection h2 {
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 2rem;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
 }
 
 .aboutMeDescription {
-    color: white;
-    width: 80%;
-    height: auto;
-    margin: 0 auto;
-    position: relative;
-    padding: 10px;
-    font-size: 1.2rem;
-    font-family: 'Montserrat', sans-serif;
-    padding-top: 35px;
+  color: white;
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  position: relative;
+  padding: 10px;
+  font-size: 1.2rem;
+  font-family: "Montserrat", sans-serif;
+  padding-top: 35px;
 }
 /* =====================================================================END ABOUT ME*/
 /* ============================================================= START BASKETBALL BOUNCE */
 @keyframes bounce {
-    10% {
-        height: 50px;
-    }
+  10% {
+    height: 50px;
+  }
 
-    30% {
-        height: 50px;
-    }
+  30% {
+    height: 50px;
+  }
 
-    50% {
-        height: 50px;
-        transform: translateY(50px);
-    }
+  50% {
+    height: 50px;
+    transform: translateY(50px);
+  }
 
-    75% {
-        height: 50px;
-    }
+  75% {
+    height: 50px;
+  }
 
-    100% {
-        height: 50px;
-    }
-
+  100% {
+    height: 50px;
+  }
 }
 /* ============================================================= END BASKETBALL BOUNCE */
 /* =================================================================== START SKILLS */
 
 .skillsSection1 {
-    height: 400px;
+  height: 400px;
 }
 
 .skillsSection2 {
-    background-color: #ffff;
-    width: 60%;
-    border-radius: 25px;
-    border-style: solid;
-    margin-left: 20%;
-    bottom: 20%;
-    position: relative;
+  background-color: #ffff;
+  width: 60%;
+  border-radius: 25px;
+  border-style: solid;
+  margin-left: 20%;
+  bottom: 20%;
+  position: relative;
 }
 
 .skillsSection2 h3 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 3rem;
-    text-align: center;
-    margin-bottom: 0px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 0px;
 }
 
 .mySkills {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 2rem;
-    display: flex;
-    justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
 }
 
 .title {
-    color: #FFC107;
-    font-size: 1.5rem;
-    font-weight: 700;
+  color: #ffc107;
+  font-size: 1.5rem;
+  font-weight: 700;
 }
 
 .skillIcon {
-    display: flex;
-    color: #FFC107;
-    font-size: 2rem;
-    justify-content: space-around;
-
+  display: flex;
+  color: #ffc107;
+  font-size: 2rem;
+  justify-content: space-around;
 }
 
 .learningIcon {
-    display: flex;
-    color: #FFC107;
-    font-size: 2rem;
-    justify-content: space-around;
+  display: flex;
+  color: #ffc107;
+  font-size: 2rem;
+  justify-content: space-around;
 }
 
 .slText {
-    font-size: 1rem;
-    font-weight: 700;
+  font-size: 1rem;
+  font-weight: 700;
 }
 /* ================================================================START SKILLS */
 /* ================================================================START MY PROFILE */
 
 .myProfile {
-    background-image: url(./assets/basketballBg.jpg);
-    background-attachment: fixed;
-    height: 200px;
-    position: relative;
-    border-radius: 50px;
-    border-style: solid;
-    border-color: #FFC107;
+  background-image: url(./assets/basketballBg.jpg);
+  background-attachment: fixed;
+  height: 200px;
+  position: relative;
+  border-radius: 50px;
+  border-style: solid;
+  border-color: #ffc107;
 }
 
 .myProfileText {
-    color: #FFC107;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    position: absolute;
-    top: 40px;
-    text-align: center;
-    width: 100%;
-    margin: 0px;
+  color: #ffc107;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  position: absolute;
+  top: 40px;
+  text-align: center;
+  width: 100%;
+  margin: 0px;
 }
 
 .myProfileText p {
-    font-size: 1.5rem;
-    border-left: white solid 2px;
-    margin: 0px;
+  font-size: 1.5rem;
+  border-left: white solid 2px;
+  margin: 0px;
 }
 
 .myProfile h3 {
-    font-size: 5rem;
-    margin: 0px;
+  font-size: 5rem;
+  margin: 0px;
 }
 /* ================================================================END MY PROFILE */
 
 /*================================================================== START MY WORK*/
 .myWork {
-    position: relative;
-    width: 100%;
+  position: relative;
+  width: 100%;
 }
 
-.highLightContainer{
-    width: 80%;
-    margin: auto;
-    margin-top: 50px;}
-
-.projectsHighlights{
-    width: 100%;
+.highLightContainer {
+  width: 80%;
+  margin: auto;
+  margin-top: 50px;
 }
 
-.highlight1{
-    width: 50%;
-    
+.projectsHighlights {
+  width: 100%;
+  display: flex;
+}
+
+.highlights {
+  width: 50%;
+  padding: 0px 10px;
 }
 
 .myWorkGallery {
-    margin-top: 100px;
-    font-family: 'Montserrat', sans-serif;
+  margin-top: 100px;
+  font-family: "Montserrat", sans-serif;
 }
 
 h4 {
-    color: #FFC107;
-    font-size: 2rem;
+  color: #ffc107;
+  font-size: 2rem;
 }
 /*================================================================== END MY WORK*/
 /* ============================================================= START Gallery */
 
 .workGallery {
-    display: flex;
-    top: 200px;
+  display: flex;
+  top: 200px;
 }
 
 .galleryText {
-    width: 50%;
-    padding: 30px;
-    background: #fbf0e4;
+  width: 50%;
+  padding: 30px;
+  background: #fbf0e4;
 }
 
-.galleryImages{
-    display: block;
-    width: 40%;
+.galleryImages {
+  display: block;
+  width: 40%;
 }
 
 .galleryItem {
-    /* height: 300px;
+  /* height: 300px;
     width: 40%; */
 }
 
 Button {
-    border: 1px solid #FFC107;
-    display: inline-block;
-    cursor: pointer;
-    color: #FFC107;
-    font-family: 'Montserrat', sans-serif;
-    background-color: white;
-    font-size: 1rem;
-    padding: 16px 31px;
-    text-decoration: none;
+  border: 1px solid #ffc107;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffc107;
+  font-family: "Montserrat", sans-serif;
+  background-color: white;
+  font-size: 1rem;
+  padding: 16px 31px;
+  text-decoration: none;
 }
 
 Button:hover {
-    background-color: black;
+  background-color: black;
 }
 
 Button:active {
-    position: relative;
-    top: 1px;
+  position: relative;
+  top: 1px;
 }
 
-.galleryContainer{
-    display: flex;
-        justify-content: space-between;
-        margin-bottom: 60px;
+.galleryContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
 }
 
 .contactCourt {
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
-    background-image: url(./assets/basketballBg.jpg);
-    background-position: center;
-    background-size: cover;
-    height: 200px;
-    background-attachment: fixed;
-    position: relative;
-
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  background-image: url(./assets/basketballBg.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 200px;
+  background-attachment: fixed;
+  position: relative;
 }
 
 h5 {
-    color: #FFC107;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 3rem;
-    font-weight: 700;
-    position: absolute;
-    left: 40%;
+  color: #ffc107;
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  position: absolute;
+  left: 40%;
 }
 /* ============================================================= END Gallery */
 /*==============================================================START CONTACT*/
 
 .contactMe {
-    background-color: black;
-    color: #FFC107;
-    font-family: 'Montserrat', sans-serif;
-    height: 400px;
+  background-color: black;
+  color: #ffc107;
+  font-family: "Montserrat", sans-serif;
+  height: 400px;
 }
 
 .contactForm {
-    width: 100%;
+  width: 100%;
 }
 
 .form {
-    padding-top: 65px;
+  padding-top: 65px;
 }
 
 .contactMeText {
-    width: 50%;
-    text-align: center;
-    margin: 0 auto;
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
 }
 
 .fa-linkedin {
-    color: blue;
-    font-size: 2rem;
+  color: blue;
+  font-size: 2rem;
 }
 
 input {
-    background-color: black;
-    border: #FFC107 solid 1px;
-    color: #FFC107;
-    margin-bottom: 20px;
-    width: 45%;
-    height: 50px;
+  background-color: black;
+  border: #ffc107 solid 1px;
+  color: #ffc107;
+  margin-bottom: 20px;
+  width: 45%;
+  height: 50px;
 }
 
 textarea {
-    background-color: black;
-    border: #FFC107 solid 2px;
-    color: #FFC107;
-    width: 90%;
-    padding: 10px;
+  background-color: black;
+  border: #ffc107 solid 2px;
+  color: #ffc107;
+  width: 90%;
+  padding: 10px;
 }
 
 .formSubmit {
-    margin-top: 10px;
-    width: 95%;
+  margin-top: 10px;
+  width: 95%;
 }
 
 .formSubmit:hover {
-    background-color: #FFC107;
-    color: black;
+  background-color: #ffc107;
+  color: black;
 }
 
 footer {
-    background-color: black;
-    color: #FFC107;
-    font-family: 'Montserrat', sans-serif;
-    height: 50px;
-    padding-top: 25px;
-    text-align: center;
+  background-color: black;
+  color: #ffc107;
+  font-family: "Montserrat", sans-serif;
+  height: 50px;
+  padding-top: 25px;
+  text-align: center;
 }
 /*==============================================================END CONTACT*/
-@media(max-width: 1025px) {
-    .introSection{
-        height: 650px;
-      
-    }
+@media (max-width: 1025px) {
+  .introSection {
+    height: 650px;
+  }
 
-    .skillContainer {
-        height: 250px;
-        width: 25%;
-    }
+  .skillContainer {
+    height: 250px;
+    width: 25%;
+  }
 }
 
-@media(max-width: 760px) {
+@media (max-width: 760px) {
+  .skillsSection1 {
+    height: 430px;
+  }
 
-    .skillsSection1 {
-            height: 430px;
-        }
+  .sectionWithName {
+    padding-left: 20px;
+  }
 
-    .sectionWithName {
-        padding-left: 20px;
-    }
+  .picOfMe {
+    width: 50%;
+    height: 400px;
+  }
 
-    .picOfMe {
-        width: 50%;
-        height: 400px;
-    }
-
-    .skillsSection2{
-        position: static; 
-    }
-
-
+  .skillsSection2 {
+    position: static;
+  }
 }
 
-@media(max-width: 480px) {
+@media (max-width: 480px) {
+  .introSection {
+    height: 750px;
+  }
 
-    .introSection{
-        height: 750px;
-    }
+  .burgerIcon:before {
+    visibility: hidden;
+  }
 
-    .burgerIcon:before {
-        visibility: hidden;
-    }
+  .burgerIcon:after {
+    visibility: hidden;
+  }
 
-    .burgerIcon:after {
-        visibility: hidden;
-    }
+  .fa-basketball-ball {
+    visibility: hidden;
+  }
+  h1 {
+    padding-left: 30px;
+  }
 
-    .fa-basketball-ball {
-        visibility: hidden;
-    }
-    h1{
-        padding-left: 30px;
-    }
+  .picOfMe {
+    padding-left: 35%;
+  }
 
-    .picOfMe{
-        padding-left: 35%;
-    }
+  .scottie {
+    visibility: hidden;
+  }
 
-    .scottie{
-        visibility: hidden;
-    }
+  .skyline {
+    width: 100%;
+    padding-top: 70px;
+    padding-left: 50%;
+  }
+  .aboutMeDescription {
+    padding: 5px 0px;
+  }
 
-    .skyline{
-        width: 100%;
-        padding-top: 70px;
-        padding-left: 50%;
-    }
-    .aboutMeDescription {
-        padding: 5px 0px;
-    }
+  .picOfMe {
+    width: 50%;
+    height: 250px;
+  }
 
-    .picOfMe {
-        width: 50%;
-        height: 250px;
-    }
+  .introSection {
+    position: relative;
+    left: 8%;
+  }
 
-    .introSection{
-        position: relative;
-        left: 8%;
-    }
+  .skillsSection2 {
+    width: 100%;
+    margin-left: 8%;
+  }
 
-    .skillsSection2 {
-        width: 100%;
-        margin-left:8%;
-    }
+  .mySkills {
+    font-size: 1.5rem;
+  }
 
-    .mySkills{
-        font-size: 1.5rem;
-    }
+  .myProfile {
+    left: 8%;
+  }
 
-    .myProfile{
-        left: 8%;
-    }
-    
-    .myProfile h3{
-        font-size: 1.2rem;
-    }
+  .myProfile h3 {
+    font-size: 1.2rem;
+  }
 
-    .myProfile p{
-        font-size: 2rem;
-    }
+  .myProfile p {
+    font-size: 2rem;
+  }
 
-    .title {
-        font-size: 1rem;
-    }
+  .title {
+    font-size: 1rem;
+  }
 
-    .slText {
-        font-size: .8rem;
-    }
+  .slText {
+    font-size: 0.8rem;
+  }
 
-    .myWork{
-        padding-left: 8%;
-    }
+  .myWork {
+    padding-left: 8%;
+  }
 
-    .galleryContainer{
-        flex-direction: column;
-    }
+  .galleryContainer {
+    flex-direction: column;
+  }
 
-    .galleryItem {
-        width: 85%;
-        padding-left: 30px;
-    }
+  .galleryItem {
+    width: 85%;
+    padding-left: 30px;
+  }
 
-    .galleryText {
-        width: 85%;
-        text-align: center;
-    }
+  .galleryText {
+    width: 85%;
+    text-align: center;
+  }
 
-    h5 {
-        left: 20%;
-    }
+  h5 {
+    left: 20%;
+  }
 
-    .contactCourt{
-        left: 8%;
-    }
+  .contactCourt {
+    left: 8%;
+  }
 
-    .contactMe{
-        position: relative;
-        left: 8%;
-    }
+  .contactMe {
+    position: relative;
+    left: 8%;
+  }
 
-    footer{
-        position: relative;
-        left: 8%;
-    }
-    .contactInfo {
-        flex-direction: column;
-    }
+  footer {
+    position: relative;
+    left: 8%;
+  }
+  .contactInfo {
+    flex-direction: column;
+  }
 
-    .contactMeText {
-        width: 100%;
-    }
+  .contactMeText {
+    width: 100%;
+  }
 
-    .contactForm {
-        width: 95%;
-        padding-left: 5px;
-    }
+  .contactForm {
+    width: 95%;
+    padding-left: 5px;
+  }
 
-    input {
-        width: 96%;
-    }
+  input {
+    width: 96%;
+  }
 
-    .contactInfo img {
-        visibility: hidden;
-        height: 0px;
-    }
+  .contactInfo img {
+    visibility: hidden;
+    height: 0px;
+  }
 }
-@media(max-width: 390px){
-    
-h1{
+@media (max-width: 390px) {
+  h1 {
     width: 80%;
-}
+  }
 
-.picOfMe{
+  .picOfMe {
     padding-left: 25%;
-}
+  }
 
-.skyline{
+  .skyline {
     padding-top: 85px;
-}
+  }
 }
